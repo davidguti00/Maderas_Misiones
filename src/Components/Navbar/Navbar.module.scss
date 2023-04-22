@@ -1,0 +1,58 @@
+.container{
+ justify-content: center;
+ align-items: center;
+ z-index: 3;
+ position: absolute;
+ height: 10vh;
+
+ .logo{
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  align-items: center;
+
+  p{
+   text-transform: uppercase;
+   font-family: 'Poppins', sans-serif;
+   font-size: 1.1rem;
+   color: #EEEEEE;
+  }
+ }
+
+ .contact{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+ }
+
+ .link{
+  position: relative;
+  margin-right: 1.5rem;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 0.8rem;
+
+  &:hover{
+   transition: 0.3s;
+   color: #c0c0c0;
+  }
+ }
+}
+
+@media screen and (max-width: 900px){
+ .container{
+  .contact{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+
+   p{
+    display: none;
+   }
+  }
+
+  .link{
+   display: none;
+  }
+ }
+}

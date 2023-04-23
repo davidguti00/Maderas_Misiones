@@ -7,6 +7,9 @@ import {
 } from '@mui/material';
 import Landing from '../Landing';
 import Navbar from '../Navbar';
+import Products from '../Producs';
+import Construction from '../Construction';
+import Floors from '../Floors';
 
 const Home = () => {
 
@@ -14,6 +17,9 @@ const Home = () => {
 		<Grid container className={s.container}>
 				<Navbar/>
 				<Landing/>
+				<Products/>
+				<Construction/>
+				<Floors/>
 		</Grid>
 	)
 }

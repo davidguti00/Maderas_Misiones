@@ -1,0 +1,57 @@
+.topicscontainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+
+    .cards{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        .card{
+            transition: 0.3s;
+            animation: init .5s;
+            margin-top: 25px;
+            margin-right: 25px;
+            background-color: #EEEEEE;
+            height: 20%;
+            border-radius: 5px;
+
+            .imageContainer{
+                height: 75%;
+
+                .image{
+                    object-fit: cover;
+                    border-radius: 4px 4px 0 0;
+                    width: 100%;
+                    max-height: 150px;
+                }
+            }
+
+            .topic{
+                color: #222222;
+                display: flex;
+                justify-content: center;
+            }
+
+            &:hover{
+                transition: 0.3s;
+                cursor: pointer;
+                scale: 1.02;
+                box-shadow: 5px 5px 15px -3px rgba(255, 255, 255, 0.272);
+            }
+        }
+    }
+}
+
+@keyframes init {
+    0%{
+        opacity: 0;
+        transform: translateX(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

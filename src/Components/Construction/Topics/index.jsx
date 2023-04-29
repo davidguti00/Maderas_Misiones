@@ -8,10 +8,10 @@ import {
 import DetailModal from '../../Detail';
 
 const cards = [
-		{image: 'https://www.laviruta.com/resources/img/products/876f441b6012c47e8801f3c8da8ccfc1.jpg', topic: 'Fenolicos'},
-		{image: 'https://www.insumasur.com/wp-content/uploads/2022/06/Placa-OSB0.jpg', topic: 'Tableros OSB'},
-		{image: 'https://www.saltus.com.ar/wp-content/uploads/2014/12/tabla.jpg', topic: 'Maderas para obra'},
-		{image: 'https://decandidocarpinteros.com/wp-content/uploads/2018/03/techos-de-madera-machimbres-sin-nudos.jpg', topic: 'Techos'},
+		{image: 'https://www.laviruta.com/resources/img/products/876f441b6012c47e8801f3c8da8ccfc1.jpg', topic: 'Fenolicos', section: 'Construcción'},
+		{image: 'https://www.insumasur.com/wp-content/uploads/2022/06/Placa-OSB0.jpg', topic: 'Tableros OSB', section: 'Construcción'},
+		{image: 'https://www.saltus.com.ar/wp-content/uploads/2014/12/tabla.jpg', topic: 'Maderas para obra', section: 'Construcción'},
+		{image: 'https://decandidocarpinteros.com/wp-content/uploads/2018/03/techos-de-madera-machimbres-sin-nudos.jpg', topic: 'Techos', section: 'Construcción'},
 
 ]
 
@@ -33,12 +33,13 @@ const ConstructionTopics = () => {
 							</Grid>
 							<Grid item xs={12} className={s.topic}>
 								<p>{item?.topic}</p>
+								<p className={s.more}>Información</p>
 							</Grid>
 						</Grid>
 					))
 				}
 			</Grid>
-			{open ? <DetailModal open={open} setOpen={setOpen} data={data}/> : null}
+			{open ? <DetailModal open={open} setOpen={setOpen} data={data} dark={true}/> : null}
 		</Grid>
 	)
 }

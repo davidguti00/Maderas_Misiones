@@ -41,6 +41,7 @@ const Topics = () => {
 							</Grid>
 							<Grid item xs={12} className={s.topic}>
 								<p>{item?.topic}</p>
+								<p className={s.more}>Información</p>
 							</Grid>
 						</Grid>
 					))

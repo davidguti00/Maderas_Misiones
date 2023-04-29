@@ -1,6 +1,9 @@
 import React from 'react';
 import s from './Navbar.module.scss';
 
+//assets
+import whitelogo from './assets/logod.png';
+
 //Material UI
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import {
@@ -32,11 +35,14 @@ const Navbar = () => {
 		<Grid container item xs={12} className={s.container}>
       <Grid container item xs={10}>
         <Grid item lg={6} md={6} xs={12} className={s.logo}>
-          <Link href='#home' sx={{textDecoration: 'none'}}>
-            <p style={{fontWeight: 600}}>Maderas</p>
+          <Link href='#home' sx={{textDecoration: 'none'}} style={{width: '15%', marginRight: '10px'}}>
+            <img src={whitelogo} alt="logo" style={{width:'100%'}}/>
           </Link>
           <Link href='#home' sx={{textDecoration: 'none'}}>
-            <p style={{fontWeight: 300}}>Misiones</p>
+            <p style={{fontWeight: 700}}>Maderas</p>
+          </Link>
+          <Link href='#home' sx={{textDecoration: 'none'}}>
+            <p style={{fontWeight: 400, opacity: 0.8, marginLeft: '1px'}}>Misiones</p>
           </Link>
         </Grid>
         <Grid item lg={6} md={6} xs={12} className={s.contact}>

@@ -9,7 +9,8 @@ import logow from '../Navbar/assets/whitelogo.png';
 import {
     Grid,
     Modal,
-    Button
+    Button,
+    Link
 } from '@mui/material';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import CloseIcon from '@mui/icons-material/Close';
@@ -42,10 +43,12 @@ const DetailModal = ({open, setOpen, data, dark}) => {
                            </Grid>
 
                            <Grid item xs={12} sx={{height: '10%'}}>
-                              <Button variant='contained' color='error' sx={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                                 <p style={{margin: 0, marginTop: '2px'}}>Consultar</p>
-                                 <ChevronRightIcon/>
-                              </Button>
+                              <Link href='#contact'>
+                                 <Button variant='contained' color='error' sx={{display: 'flex', justifyContent: 'center', alignItems: 'center'}} onClick={() => setOpen(false)}>
+                                    <p style={{margin: 0, marginTop: '2px'}}>Consultar</p>
+                                    <ChevronRightIcon/>
+                                 </Button>
+                              </Link>
                            </Grid>
                         </Grid>
                      </Grid>

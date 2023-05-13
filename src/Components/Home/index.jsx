@@ -10,6 +10,7 @@ import Navbar from '../Navbar';
 import Products from '../Producs';
 import Construction from '../Construction';
 import Floors from '../Floors';
+import Contact from '../Contact';
 
 const Home = () => {
 
@@ -20,6 +21,7 @@ const Home = () => {
 				<Products/>
 				<Construction/>
 				<Floors/>
+				<Contact/>
 		</Grid>
 	)
 }

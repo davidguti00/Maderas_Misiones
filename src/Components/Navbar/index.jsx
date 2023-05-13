@@ -26,6 +26,7 @@ const options = [
  {name: 'Construcción', href: 'construction'},
  {name: 'Pisos', href: 'floors'},
  {name: 'Sobre nosotros', href: 'about'},
+ {name: 'Contacto', href: 'contact'},
 ]
 
 const Navbar = () => {
@@ -47,9 +48,11 @@ const Navbar = () => {
         </Grid>
         <Grid item lg={6} md={6} xs={12} className={s.contact}>
         <p style={{color: '#EEEEEE', marginRight: '15px', fontWeight: 300, fontSize: '0.9rem'}}>+54 11 151420023</p>
-        <Button variant='outlined' color='primary' sx={{fontSize: '0.7rem', mb: 0.5}}>
-          Contactar
-        </Button>
+        <Link href='#contact'>
+          <Button variant='outlined' color='primary' sx={{fontSize: '0.7rem', mb: 0.5}}>
+            Contactar
+          </Button>
+        </Link>
         </Grid>
       </Grid>
       <Grid container item xs={10} sx={{mb: 2}}>

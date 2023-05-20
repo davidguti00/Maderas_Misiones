@@ -12,6 +12,15 @@
    max-height: 90%;
    border-radius: 5px;
    box-shadow: 0 5px 50px -3px rgba(0, 0, 0, 0.511);
+
+
+   .modalImagen{
+      height: 70vh;
+   }
+
+   .modalTexto{
+      height: 67vh;
+   }
 }
 
 @keyframes init {
@@ -29,5 +38,13 @@
    .boxModal{
       max-height: 100%;
       height: 100%;
+
+      .modalImagen{
+         height: 30vh;
+      }
+
+      .modalTexto{
+         min-height: 100vh;
+      }
    }
 }

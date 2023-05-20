@@ -32,7 +32,7 @@ const Topics = () => {
 			<Grid item container xs={12} className={s.cards}>
 				{
 					cards.map((item, i) => (
-						<Grid key={i} item container xs={2.8} className={s.card} onClick={() => {
+						<Grid key={i} item container lg={2.8} md={5.5} xs={10} className={s.card} onClick={() => {
 							setOpen(true);
 							setData(item);
 						}}>

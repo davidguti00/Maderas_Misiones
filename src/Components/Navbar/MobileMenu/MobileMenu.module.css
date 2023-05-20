@@ -1,0 +1,15 @@
+.container{
+   display: flex;
+   align-items: flex-start;
+   transition: 0.3s;
+   height: 100vh;
+   position: fixed;
+   z-index: 9999;
+   transform: translateX(-100vw);
+   background-color: #111111;
+}
+
+.openContainer{
+   transition: 0.3s;
+   transform: translateX(0);
+}

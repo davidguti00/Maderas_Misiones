@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import s from './Navbar.module.scss';
 
 //assets
-import whitelogo from './assets/logod.png';
+import whitelogo from './assets/whitelogo.png';
 
 //Material UI
 import { ThemeProvider, createTheme } from '@mui/material/styles';
@@ -11,6 +11,7 @@ import {
  Button,
  Link
 } from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
 
 const theme = createTheme({
  palette: {
@@ -25,34 +26,30 @@ const options = [
  {name: 'Mobiliario e Interiorismo', href: 'interior'},
  {name: 'Construcción', href: 'construction'},
  {name: 'Pisos', href: 'floors'},
- {name: 'Sobre nosotros', href: 'about'},
  {name: 'Contacto', href: 'contact'},
 ]
 
-const Navbar = () => {
+const Navbar = ({setOpen}) => {
 
 	return(
   <ThemeProvider theme={theme}>
 		<Grid container item xs={12} className={s.container}>
-      <Grid container item xs={10}>
-        <Grid item lg={6} md={6} xs={12} className={s.logo}>
-          <Link href='#home' sx={{textDecoration: 'none'}} style={{width: '15%', marginRight: '10px'}}>
-            <img src={whitelogo} alt="logo" style={{width:'100%'}}/>
-          </Link>
+      <Grid container item xs={10} sx={{justifyContent: 'center', alignItems: 'center'}}>
+        <Grid item md={2} xs={1} className={s.burger} sx={{mt: 2}}>
+          <MenuIcon sx={{fontSize: '3rem', color: '#EEEEEE'}} onClick={() => setOpen(true)}/>
+        </Grid>
+        <Grid item lg={9} md={8} xs={9} className={s.logo}>
           <Link href='#home' sx={{textDecoration: 'none'}}>
-            <p style={{fontWeight: 700}}>Maderas</p>
-          </Link>
-          <Link href='#home' sx={{textDecoration: 'none'}}>
-            <p style={{fontWeight: 400, opacity: 0.8, marginLeft: '1px'}}>Misiones</p>
+            <img src={whitelogo} alt="logo" style={{width:'6rem'}}/>
           </Link>
         </Grid>
-        <Grid item lg={6} md={6} xs={12} className={s.contact}>
-        <p style={{color: '#EEEEEE', marginRight: '15px', fontWeight: 300, fontSize: '0.9rem'}}>+54 11 151420023</p>
-        <Link href='#contact'>
-          <Button variant='outlined' color='primary' sx={{fontSize: '0.7rem', mb: 0.5}}>
-            Contactar
-          </Button>
-        </Link>
+        <Grid item lg={3} md={4} xs={2} className={s.contact}>
+          <p style={{color: '#EEEEEE', marginRight: '15px', fontWeight: 300, fontSize: '0.9rem'}}>+54 11 151420023</p>
+          <Link href='#contact'>
+            <Button variant='outlined' color='primary' sx={{fontSize: '0.7rem', mb: 0.5}}>
+              Contactar
+            </Button>
+          </Link>
         </Grid>
       </Grid>
       <Grid container item xs={10} sx={{mb: 2}}>

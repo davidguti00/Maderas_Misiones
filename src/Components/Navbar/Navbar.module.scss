@@ -10,17 +10,11 @@
 
  .logo{
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   margin-top: 2vh;
 
-  p{
-   text-transform: uppercase;
-   font-family: 'Montserrat', sans-serif;
-   font-size: 1.1rem;
-   color: #EEEEEE;
-   margin: 0;
-  }
  }
 
  .contact{
@@ -42,13 +36,17 @@
    color: #c0c0c0;
   }
  }
+ 
+ .burger{
+   display: none;
+ }
 }
 
 @media screen and (max-width: 900px){
  .container{
   .contact{
    display: flex;
-   justify-content: flex-start;
+   justify-content: center;
    align-items: center;
 
    p{
@@ -56,8 +54,25 @@
    }
   }
 
+  .logo{
+   align-items: center;
+  }
+
   .link{
    display: none;
   }
+
+  .burger{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
  }
 }
+
+
+@media screen and (max-width: 500px){
+   .container{
+      height: 10vh;
+   }
+ }

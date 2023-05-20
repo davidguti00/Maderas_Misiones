@@ -8,7 +8,7 @@ import {
 import DetailModal from '../../Detail';
 
 const cards = [
-		{image: 'https://www.storehaus.com.ar/wp-content/uploads/moderno-piso-flotante-storehaus.jpg', topic: 'Pisos Flotantes', section:'Pisos'},
+		{image: 'https://www.cordobatimes.com/wp-content/uploads/2020/01/pisos-flotantes-696x411.jpg', topic: 'Pisos Flotantes', section:'Pisos'},
 		{image: 'https://http2.mlstatic.com/D_NQ_NP_880942-MLA27185939225_042018-O.jpg', topic: 'Decks Madera', section:'Pisos'},
 		{image: 'https://www.vierabinet.com/v1/wp-content/uploads/2019/05/decks-coextrusion-vierabinet-09.jpg', topic: 'Decks WPC', section:'Pisos'},
 ]
@@ -22,7 +22,7 @@ const FloorTopics = () => {
 			<Grid item container xs={12} className={s.cards}>
 				{
 					cards.map((item, i) => (
-						<Grid key={i} item container xs={2.8} className={s.card} onClick={() => {
+						<Grid key={i} item container lg={2.8} md={5.5} xs={10} className={s.card} onClick={() => {
 							setOpen(true);
 							setData(item);
 						}}>

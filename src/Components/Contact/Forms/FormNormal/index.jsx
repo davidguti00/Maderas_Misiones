@@ -15,6 +15,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 const FormNormal = () => {
    const [form, setForm] = useState({
       name: '',
+      lastname: '',
       email: '',
       category: 'none',
       subject: '',
@@ -23,27 +24,27 @@ const FormNormal = () => {
 
    return (
 		<Grid item xs={12} container className={s.container}>
-         <Grid item xs={6.5} sx={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start'}}>  
+         <Grid item xs={10} md={9} lg={6.5} sx={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start'}}>  
             <h4 style={{margin: 0, fontSize: '1.4rem', fontWeight: 500}}>Formulario de contacto</h4>
             <p style={{margin: 0, marginTop: '5px', fontSize: '1rem', fontWeight: 400}}>Comunicate para conocer más sobre nuestros productos</p>
          </Grid>
 
-			<Grid item container xs={6.5} className={s.form}>
-            <Grid item xs={5.8}>
+			<Grid item container xs={10} md={9} lg={6.5} className={s.form}>
+            <Grid item xs={12} md={5.8} lg={5.8}>
                <p>Nombre</p>
                <TextField value={form.name}
                   onChange={(e) => setForm(prev => ({...prev, name: e.target.value}))} 
                   sx={{width: '100%'}}
                />
             </Grid>
-            <Grid item xs={5.8}>
+            <Grid item xs={12} md={5.8} lg={5.8}>
                <p>Apellido</p>
-               <TextField value={form.name}
-                  onChange={(e) => setForm(prev => ({...prev, name: e.target.value}))} 
+               <TextField value={form.lastname}
+                  onChange={(e) => setForm(prev => ({...prev, lastname: e.target.value}))} 
                   sx={{width: '100%'}}
                />
             </Grid>
-            <Grid item xs={5.8}>
+            <Grid item xs={12} md={5.8} lg={5.8}>
                <p>Categoría</p>
                <Select
                   value={form.category}
@@ -56,7 +57,7 @@ const FormNormal = () => {
                   <MenuItem value=''>Pisos</MenuItem>
                </Select>
             </Grid>
-            <Grid item xs={5.8}>
+            <Grid item xs={12} md={5.8} lg={5.8} >
                <p>Asunto</p>
                <TextField value={form.subject}
                   onChange={(e) => setForm(prev => ({...prev, subject: e.target.value}))} 
@@ -76,7 +77,7 @@ const FormNormal = () => {
 			</Grid>
 
          <Grid item xs={12} sx={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-            <Button variant='contained' color='error' onClick={() => alert('Enviado')}>
+            <Button variant='contained' color='error' type='submit' onClick={() => alert('Enviado')}>
                <ArrowForwardIosIcon sx={{fontSize: '1.2rem', color: '#EEEEEE'}}/>
             </Button>
          </Grid>

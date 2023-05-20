@@ -70,6 +70,6 @@ ul .MuiPaginationItem-root{
 
 @media screen and (max-width: 300px){
   html{
-    font-size: 10px;
+    font-size: 12px;
   }
 }

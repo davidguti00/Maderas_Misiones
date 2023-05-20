@@ -1,20 +1,18 @@
 .container{
 	position: relative;
-	width: 100%;
-	height: 180vh;
-
+	min-height: 100vh;
 
 	.content{
 		display: flex;
 		justify-content: center;
 		align-items: flex-start;
 		z-index: 2;
-		height: 100%;
+		margin-bottom: 20px;
 	
 		.title{
 			display: flex;
 			justify-content: flex-start;
-			margin-top: 20vh;
+			margin-top: 17vh;
 			
 			h3{
 				margin: 0;
@@ -71,6 +69,26 @@
 			background-color: #eeeeee57;
 			height: 50%;
 			justify-self: end;
+		}
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.container{
+		.content{
+			margin-bottom: 8vh;
+		}
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.container{
+		.content{
+			margin-bottom: 10vh;
+
+			.data{
+				height: 95%;
+			}
 		}
 	}
 }

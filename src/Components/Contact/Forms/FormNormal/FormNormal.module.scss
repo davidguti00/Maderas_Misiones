@@ -1,0 +1,12 @@
+
+.container{
+   justify-content: center;
+   align-items: flex-start;
+   height: 100%;
+
+   .form{
+      height: 70%;
+      justify-content: space-between;
+      align-items: flex-start;
+   }
+}

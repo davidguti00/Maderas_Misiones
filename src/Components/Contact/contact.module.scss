@@ -1,0 +1,53 @@
+.container{
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	height: 100vh;
+	background-color: #EEEEEE;
+
+	.content{
+		display: flex;
+		justify-content: center;
+		margin-top: 16vh;
+	}
+
+	.linecontainer{
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		left: 3.55vw;
+		color: #222222;
+	  
+		p{
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 300;
+			font-size: 1.2rem;
+			margin: 0;
+			margin-bottom: 10px;
+		}
+	  
+		.line1{
+		 width: 1px;
+		 background-color: #222222;
+		 height: 20%;
+		 justify-self: end;
+		}
+
+		.line2{
+			width: 2px;
+			background-color: #222222;
+			height: 40%;
+			justify-self: end;
+		}
+
+		.line3{
+			width: 1px;
+			background-color: #222222;
+			height: 50%;
+			justify-self: end;
+		}
+	}
+}

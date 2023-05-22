@@ -1,7 +1,7 @@
 .container{
 	position: relative;
 	min-height: 100vh;
-	background-color: #EEEEEE;
+	background-color: #222222;
 
 
 	.content{
@@ -22,28 +22,29 @@
 				font-family: 'Montserrat', sans-serif;
 				font-size: 1rem;
 				font-weight: 400;
-				color: #222222;
-				border-bottom: 1px solid #222222;
+				color: #EEEEEE;
+				border-bottom: 1px solid #EEEEEE;
 			}
 		}
 
 		.data{
 			display: flex;
-			justify-content: flex-start;
-			align-items: flex-start;
-			height: 90%;
+			justify-content: center;
+			align-items: center;
+			height: 80%;
 		}
 	}
 
 	.linecontainer{
+		z-index: 11;
 		position: absolute;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		height: 100%;
-		left: 3.5vw;
-		color: #222222;
+		left: 3.6vw;
+		color: #EEEEEE;
 	  
 		p{
 			font-family: 'Montserrat', sans-serif;
@@ -55,21 +56,21 @@
 	  
 		.line1{
 		 width: 1px;
-		 background-color: #222222ac;
+		 background-color: #eeeeee9d;
 		 height: 20%;
 		 justify-self: end;
 		}
 
 		.line2{
 			width: 2px;
-			background-color: #222222ac;
+			background-color: #eeeeee9d;
 			height: 40%;
 			justify-self: end;
 		}
 
 		.line3{
 			width: 1px;
-			background-color: #222222ac;
+			background-color: #eeeeee9d;
 			height: 50%;
 			justify-self: end;
 		}

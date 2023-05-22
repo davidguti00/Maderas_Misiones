@@ -9,6 +9,8 @@ import Construction from '../Construction';
 import Floors from '../Floors';
 import Contact from '../Contact';
 import MobileMenu from '../Navbar/MobileMenu';
+import About from '../About';
+import Footer from '../Footer';
 
 //Material UI
 import {
@@ -27,7 +29,9 @@ const Home = () => {
 				<Products/>
 				<Construction/>
 				<Floors/>
+				<About/>
 				<Contact/>
+				<Footer/>
 		</Grid>
 	)
 }

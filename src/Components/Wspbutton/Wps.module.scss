@@ -1,0 +1,50 @@
+.container{
+  animation: init 0.5s 1s both;
+  transition: 0.3s;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  background-color: #9d1515;
+  color: #EEEEEE;
+  z-index: 999999;
+  top: 86vh;
+  left: 91vw;
+  text-decoration: none;
+
+  &:hover{
+    color: #222222;
+    transition: 0.3s;
+    scale: 1.05;
+    cursor: pointer;
+    background-color: #11ff70;
+  }
+}
+
+@keyframes init {
+  0%{
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media screen and (width < 900px){
+  .container{
+    top: 80vh;
+    left: 85vw;
+  }
+}
+
+@media screen and (width < 600px){
+  .container{
+    top: 90vh;
+    left: 80vw;
+  }
+}

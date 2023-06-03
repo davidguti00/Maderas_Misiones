@@ -11,12 +11,13 @@ import Contact from '../Contact';
 import MobileMenu from '../Navbar/MobileMenu';
 import About from '../About';
 import Footer from '../Footer';
+import Mapas from "../Mapas";
+import Wspbutton from "../Wspbutton";
 
 //Material UI
 import {
 	Grid,
 } from '@mui/material';
-import Mapas from "../Mapas";
 
 const Home = () => {
 
@@ -24,6 +25,7 @@ const Home = () => {
 
 	return(
 		<Grid container className={s.container}>
+				<Wspbutton/>
 				<MobileMenu open={open} setOpen={setOpen}/>
 				<Navbar setOpen={setOpen}/>
 				<Landing/>

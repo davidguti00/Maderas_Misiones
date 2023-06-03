@@ -15,6 +15,7 @@ const options = [
    {name: 'Pisos', href: 'floors'},
    {name: 'Sobre nosotros', href: 'about'},
    {name: 'Contacto', href: 'contact'},
+   {name: 'Visitanos', href: 'maps'},
   ]
 
 

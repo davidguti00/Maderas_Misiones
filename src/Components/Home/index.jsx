@@ -16,6 +16,7 @@ import Footer from '../Footer';
 import {
 	Grid,
 } from '@mui/material';
+import Mapas from "../Mapas";
 
 const Home = () => {
 
@@ -31,6 +32,7 @@ const Home = () => {
 				<Floors/>
 				<About/>
 				<Contact/>
+				<Mapas/>
 				<Footer/>
 		</Grid>
 	)

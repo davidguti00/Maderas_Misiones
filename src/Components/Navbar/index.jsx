@@ -23,11 +23,12 @@ const theme = createTheme({
 });
 
 const options = [
- {name: 'Mobiliario e Interiorismo', href: 'interior'},
- {name: 'Construcción', href: 'construction'},
- {name: 'Pisos', href: 'floors'},
- {name: 'Sobre nosotros', href: 'about'},
- {name: 'Contacto', href: 'contact'},
+  {name: 'Mobiliario e Interiorismo', href: 'interior'},
+  {name: 'Construcción', href: 'construction'},
+  {name: 'Pisos', href: 'floors'},
+  {name: 'Sobre nosotros', href: 'about'},
+  {name: 'Contacto', href: 'contact'},
+  {name: 'Visitanos', href: 'maps'},
 ]
 
 const Navbar = ({setOpen}) => {

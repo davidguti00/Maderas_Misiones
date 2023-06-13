@@ -10,11 +10,13 @@ import {
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 
 const options = [
-   {name: 'Mobiliario e Interiorismo', href: 'interior'},
-   {name: 'Construcción', href: 'construction'},
-   {name: 'Pisos', href: 'floors'},
-   {name: 'Sobre nosotros', href: 'about'},
-   {name: 'Contacto', href: 'contact'},
+   {name: 'Mobiliario e Interiorismo', href: '#interior'},
+   {name: 'Construcción', href: '#construction'},
+   {name: 'Pisos', href: '#floors'},
+   {name: 'Sobre nosotros', href: '#about'},
+   {name: 'Contacto', href: '#contact'},
+   {name: 'Visitanos', href: '#maps'},
+   {name: 'Optimizador de cortes', href: 'https://www.optimizadoronline.com/empresa/maderasmisionessa/opti#/login', pref: true},
   ]
 
 
@@ -32,8 +34,8 @@ const MobileMenu = ({open, setOpen}) => {
                   {
                      options.map((item, i) => (
                         <Grid item xs={11} key={i}>
-                           <Link href={`#${item.href}`} sx={{textDecoration: 'none'}} onClick={() => setOpen(false)}>
-                              <p style={{fontSize: '1.5rem', color: '#EEEEEE', margin: 0, marginBottom: '20px'}}>{item.name}</p>
+                           <Link href={`${item.href}`} target={item?.pref ? '_blank': ''} sx={{textDecoration: 'none'}} onClick={() => setOpen(false)}>
+                              <p style={{fontSize: '1.5rem', textAlign: item?.pref ? 'center' : '', color: '#EEEEEE', margin: 0, padding: item?.pref ? '5px' : '', marginBottom: '20px', border: item?.pref ? '1px solid #EEEEEE' : '', borderRadius: item?.pref ? '5px' : ''}}>{item.name}</p>
                            </Link>
                         </Grid>
                      ))

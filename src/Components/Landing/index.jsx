@@ -40,12 +40,6 @@ const Landing = () => {
          <p style={{margin: 0, textAlign: 'start', fontSize: '0.8rem', fontWeight: 400}}>Presupuestar</p>
          <ChevronRightIcon/>
         </Button>
-        <Link href='https://www.egger.com/es/?country=AR' target='_blank'>
-          <Button variant='contained' color='error' sx={{mr: 2, mb: 1}}>
-          <p style={{margin: 0, textAlign: 'start', fontSize: '0.8rem', fontWeight: 400}}>Calculo de espacios</p>
-          <ChevronRightIcon/>
-          </Button>
-        </Link>
       </Grid>
      </Grid>
 

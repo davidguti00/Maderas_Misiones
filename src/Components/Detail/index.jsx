@@ -51,7 +51,6 @@ const DetailModal = ({open, setOpen, data, dark}) => {
                                  </Link>
                               </Grid>
                            </Grid>
-
                         </Grid>
                      </Grid>
                   </Grid>

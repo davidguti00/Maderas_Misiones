@@ -11,6 +11,8 @@ import Contact from '../Contact';
 import MobileMenu from '../Navbar/MobileMenu';
 import About from '../About';
 import Footer from '../Footer';
+import Mapas from "../Mapas";
+import Wspbutton from "../Wspbutton";
 
 //Material UI
 import {
@@ -23,6 +25,7 @@ const Home = () => {
 
 	return(
 		<Grid container className={s.container}>
+				<Wspbutton/>
 				<MobileMenu open={open} setOpen={setOpen}/>
 				<Navbar setOpen={setOpen}/>
 				<Landing/>
@@ -31,6 +34,7 @@ const Home = () => {
 				<Floors/>
 				<About/>
 				<Contact/>
+				<Mapas/>
 				<Footer/>
 		</Grid>
 	)

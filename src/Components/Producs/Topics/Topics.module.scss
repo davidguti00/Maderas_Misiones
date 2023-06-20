@@ -58,9 +58,9 @@
 
             &:hover{
                 transition: 0.5s;
-                height: 32vh;
                 cursor: pointer;
                 scale: 1.02;
+                border-radius: 0;
                 box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.272);
 
                 .image{

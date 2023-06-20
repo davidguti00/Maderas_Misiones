@@ -1,8 +1,6 @@
 import React from 'react';
 import s from './Applicated.module.scss';
 
-import aboutimg from '../../assets/aboutimage.jpg';
-
 //Material UI
 import {
 	Grid,

@@ -15,7 +15,7 @@ const Contact = () => {
 		<Grid container className={s.container} id='contact'>
 			<Grid item xs={1} className={s.linecontainer}>
 				<Box className={s.line1}></Box>
-					<p>06</p>
+					<p>09</p>
 				<Box className={s.line2}></Box>
 				<Box className={s.line3}></Box>
 			</Grid>

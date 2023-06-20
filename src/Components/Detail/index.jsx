@@ -14,6 +14,7 @@ import {
 } from '@mui/material';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import CloseIcon from '@mui/icons-material/Close';
+import ImageCarousel from '../../shared/Carousel';
 
 
 const DetailModal = ({open, setOpen, data, dark}) => {
@@ -31,7 +32,10 @@ const DetailModal = ({open, setOpen, data, dark}) => {
 
                      <Grid item container xs={12} className={s.content}>
                         <Grid item xs={12} md={6} lg={6} sx={{display: 'flex', justifyContent: 'center', alignItems: 'center'}} className={s.modalImagen}>
-                           <img src={data.image} alt={data.topic} width='100%' height='90%' style={{objectFit: 'cover', borderRadius: '5px'}}/>
+                           { data.carrousel ?
+                              <ImageCarousel images={data.images} detail/>
+                              : <img src={data.image} alt={data.topic} width='100%' height='90%' style={{objectFit: 'cover', borderRadius: '5px'}}/>
+                           }
                         </Grid>
                         <Grid item container xs={12} lg={6} md={6} sx={{justifyContent: 'flex-start', alignItems: 'flex-start', p: 2}} className={s.modalTexto}>
                            <Grid item container xs={12}>
@@ -49,6 +53,17 @@ const DetailModal = ({open, setOpen, data, dark}) => {
                                        <ChevronRightIcon/>
                                     </Button>
                                  </Link>
+                                 {
+                                    data?.multipleButtons?.length ? 
+                                    data?.multipleButtons?.map((button, i) => (
+                                       <Link key={i} href={button?.link} target='_blank' sx={{textDecoration: 'none'}}>
+                                          <Button  variant='contained' color='error' sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', mt: 1}}>
+                                             <p style={{margin: 0, marginTop: '2px'}}>{button?.title}</p>
+                                             <ChevronRightIcon/>
+                                          </Button>
+                                       </Link>
+                                    )) : null
+                                 }
                               </Grid>
                            </Grid>
                         </Grid>

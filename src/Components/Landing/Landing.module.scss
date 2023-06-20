@@ -7,9 +7,8 @@
   z-index: 1;
   position: absolute;
   border-radius: 0 0 20px 0;
+  height: 90vh;
   opacity: 0.5;
-  height: 95vh;
-  max-height: 100%;
   filter: brightness(0.8);
   object-fit: cover;
  }
@@ -58,7 +57,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80%;
+  height: 100%;
   top: 20%;
    left: 3.65vw;
   color: #EEEEEE;

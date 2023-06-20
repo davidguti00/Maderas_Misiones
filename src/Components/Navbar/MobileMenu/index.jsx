@@ -13,9 +13,12 @@ const options = [
    {name: 'Mobiliario e Interiorismo', href: '#interior'},
    {name: 'Construcción', href: '#construction'},
    {name: 'Pisos', href: '#floors'},
+   {name: 'Productos aplicados', href: '#applicated'},
+   {name: 'Área especificación', href: '#especification'},
    {name: 'Sobre nosotros', href: '#about'},
-   {name: 'Contacto', href: '#contact'},
    {name: 'Visitanos', href: '#maps'},
+   {name: 'Contacto', href: '#contact'},
+   {name: 'Visualización de diseños', href: 'https://www.vds-egger.com/?country=AR&language=es', pref: true},
    {name: 'Optimizador de cortes', href: 'https://www.optimizadoronline.com/empresa/maderasmisionessa/opti#/login', pref: true},
   ]
 

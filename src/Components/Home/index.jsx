@@ -18,6 +18,8 @@ import Wspbutton from "../Wspbutton";
 import {
 	Grid,
 } from '@mui/material';
+import Applicated from '../ApplicatedProducts';
+import Especification from '../Especification';
 
 const Home = () => {
 
@@ -32,6 +34,8 @@ const Home = () => {
 				<Products/>
 				<Construction/>
 				<Floors/>
+				<Applicated/>
+				<Especification/>
 				<About/>
 				<Contact/>
 				<Mapas/>

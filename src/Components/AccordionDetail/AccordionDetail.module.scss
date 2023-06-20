@@ -12,6 +12,25 @@
   overflow-y: scroll;
   border-radius: 5px;
   box-shadow: 0 5px 50px -3px rgba(0, 0, 0, 0.511);
+
+  .datacontainer{
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .image{
+      position: fixed;
+      left: 3%;
+      height: 100%;
+    }
+
+    .acordiones{
+      height: 100%;
+      align-items: flex-start;
+    }
+  }
+
 }
 
 @keyframes init {
@@ -22,6 +41,27 @@
   100%{
     opacity: 1;
     transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .boxModal{
+    .datacontainer{
+      justify-content: center;
+
+      .image{
+        position: relative;
+        max-width: 40%;
+        height: 50%;
+        margin-top: 20px;
+        left: 0;
+        object-fit: scale-down;
+      }
+      
+      .acordiones{
+        height: 50%;
+      }
+    }
   }
 }
 

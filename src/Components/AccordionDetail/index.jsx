@@ -27,11 +27,11 @@ const AccordionDetail = ({open, setOpen, data, dark}) => {
 							<CloseIcon onClick={() => setOpen(false)} sx={{color: dark ? '#EEEEEE' : "#222222", transition: '.3s', '&:hover': {scale: '1.1', cursor: 'pointer'}}}/>
 						</Grid>
 
-						<Grid item container xs={11.5} sx={{justifyContent: 'flex-end', alignItems: 'flex-start', my: 2}}>
-							<Grid item xs={5} sx={{position: 'fixed', left: '3%', height: '100%'}}>
-								<img src={selected} alt={data.title} style={{objectFit: 'cover', height: '85%', width: '100%'}}/>
+						<Grid item container xs={11.5} className={s.datacontainer}>
+							<Grid item lg={5} xs={11} className={s.image}>
+								<img src={selected} alt={data.title} style={{objectFit: 'scale-down', height: '85%', width: '100%'}}/>
 							</Grid>
-							<Grid item xs={7.4} sx={{alignItems: 'center'}}>
+							<Grid item lg={7.4} xs={11} className={s.acordiones}>
 								{
 									data.accordeonItems.map((item, i) => {
 										return <AccordionItem data={item} key={i} setSelected={setSelected}/>

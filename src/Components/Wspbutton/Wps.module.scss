@@ -8,7 +8,7 @@
   width: 4.5rem;
   height: 4.5rem;
   border-radius: 50%;
-  background-color: #9d1515;
+  background-color: #d32f2f;
   color: #EEEEEE;
   z-index: 999999;
   top: 86vh;
@@ -16,11 +16,11 @@
   text-decoration: none;
 
   &:hover{
-    color: #222222;
+    color: #ffffff;
     transition: 0.3s;
     scale: 1.05;
     cursor: pointer;
-    background-color: #11ff70;
+    background-color: #128C7E;
   }
 }
 

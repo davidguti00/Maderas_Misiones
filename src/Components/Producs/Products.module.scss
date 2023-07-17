@@ -1,25 +1,25 @@
 .container{
 	position: relative;
 	min-height: 100vh;
-
+	background-color: #222222;
 	.content{
 		display: flex;
 		justify-content: center;
 		align-items: flex-start;
 		z-index: 2;
-		margin-bottom: 20px;
+		margin-bottom: 50px;
 	
 		.title{
 			display: flex;
 			justify-content: flex-start;
-			margin-top: 17vh;
+			margin-top: 10vh;
 			margin-left: 10%;
 			
 			h3{
 				margin: 0;
 				font-family: 'Montserrat', sans-serif;
 				font-size: 1rem;
-				font-weight: 400;
+				font-weight: 500;
 				color: #EEEEEE;
 				border-bottom: 1px solid #EEEEEE;
 			}

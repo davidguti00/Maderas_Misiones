@@ -9,7 +9,6 @@ import {
    Link
 } from '@mui/material';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 
 const options = [
@@ -29,9 +28,13 @@ const Footer = () => {
                <img src={logo} alt="footer-logo" height='40rem'/>
             </Grid>
             <Grid item xs={7} sx={{display: 'flex', justifyContent: 'flex-start', alignItems: 'center', mt: 2}}>
-               <InstagramIcon sx={{fontSize: '1.6rem', color: '#EEEEEE', mr: 1}}/>
-               <LinkedInIcon sx={{fontSize: '1.6rem', color: '#EEEEEE', mr: 1}}/>
-               <FacebookIcon sx={{fontSize: '1.6rem', color: '#EEEEEE'}}/>
+               <Link href={'https://www.instagram.com/maderas_misiones_sa/'}>
+                  <InstagramIcon sx={{fontSize: '1.6rem', color: '#EEEEEE', mr: 1}}/>
+               </Link>
+               <Link href={'https://www.facebook.com/maderas.misiones.sa'}>
+                  <FacebookIcon sx={{fontSize: '1.6rem', color: '#EEEEEE'}}/>
+               </Link>
+               
             </Grid>
          </Grid>
 

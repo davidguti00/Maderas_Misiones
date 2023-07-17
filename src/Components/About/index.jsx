@@ -16,14 +16,14 @@ const About = () => {
 		<Grid container className={s.container} id='about'>
 			<Grid item xs={1} className={s.linecontainer}>
 				<Box className={s.line1}></Box>
-					<p>08</p>
+					<p>07</p>
 				<Box className={s.line2}></Box>
 				<Box className={s.line3}></Box>
 			</Grid>
 
 			<Grid item container xs={12} className={s.content}>
 				<Grid item xs={10} className={s.title}>
-					<h3>Nosotros</h3>
+					<h3>Area de especificacion</h3>
 				</Grid>
 
 				<Grid item container xs={12} className={s.data}>

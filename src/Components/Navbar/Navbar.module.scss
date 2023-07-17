@@ -1,89 +1,122 @@
-.container{
- justify-content: center;
- align-items: center;
- z-index: 3;
- position: fixed;
- height: 16vh;
- backdrop-filter: blur(3px);
- background-color: #22222288;
- box-shadow: 0px 2px 15px -3px rgba(0,0,0,0.1);
-
- .logo{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  margin-top: 2vh;
-
- }
-
- .contact{
-  display: flex;
-  justify-content: flex-end;
+.container {
   align-items: center;
-  margin-top: 2vh;
- }
+  z-index: 3;
+  position: fixed;
+  height: 12vh;
+  backdrop-filter: blur(3px);
+  background-color: #22222288;
+  box-shadow: 0px 2px 15px -3px rgba(0, 0, 0, 0.1);
 
- .link{
-  position: relative;
-  margin-left: 5px;
-  padding: 0.4rem;
-  text-decoration: none;
-  font-weight: 300;
-  font-size: 0.7rem;
-
-  &:hover{
-   transition: 0.3s;
-   color: #c0c0c0;
+  .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2vh;
+    align-items: center;
+    
   }
- }
- 
- .burger{
-   display: none;
- }
-}
 
-@media screen and (max-width: 1250px){
-  .container{
-    height: 20vh;
-    .link{
-      font-size: 0.7rem;
+  .contact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
+  .contact p {
+    color: #eeeeee;
+    font-family: 'Montserrat', sans-serif;
+    margin: 4px;
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-align: right;
+  }
+
+  .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .link {
+    position: relative;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+
+    &:hover {
+      transition: 0.3s;
+      //color: #5d5d5d;
+      border-radius: 4px;
+      background-color: #d32f2f;
     }
   }
-}
 
-@media screen and (max-width: 900px){
- .container{
-   height: 12vh;
-  .contact{
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  .MuiMenuItem-root.s-link:hover {
+    transition: 0.3s;
+    background-color: #d32f2f !important;
+    border-radius: 4px;
+  }
 
-   p{
+  .burger {
     display: none;
-   }
   }
 
-  .logo{
-   align-items: center;
+  @media screen and (max-width: 1280px) {
+    font-size: 0.9rem;
+
+    .contact {
+      p {
+        display: none;
+      }
+    }
   }
 
-  .link{
-   display: none;
-  }
+  @media screen and (max-width: 899px) {
 
-  .burger{
+    .contact {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      margin-top: 2vh;
+    }
+
+    .link {
+      display: none;
+    }
+
+    .burger {
       display: flex;
       justify-content: center;
       align-items: center;
-   }
- }
+    }
+  }
+
+  @media screen and (max-width: 599px) {
+    height: 11vh;
+    position: fixed;
+
+    .contact {
+      p {
+        display: none;
+      }
+    }
+
+    .logo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 3vh;
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    height: 10vh;
+  }
 }
 
-
-@media screen and (max-width: 500px){
-   .container{
-      height: 10vh;
-   }
- }

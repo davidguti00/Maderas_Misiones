@@ -35,8 +35,8 @@ const Home = () => {
 				<Construction/>
 				<Floors/>
 				<Applicated/>
-				<Especification/>
 				<About/>
+				<Especification/>
 				<Contact/>
 				<Mapas/>
 				<Footer/>

@@ -10,17 +10,17 @@ import {
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 
 const options = [
+   {name: 'Sobre nosotros', href: '#especification'},
+   {name: 'Área especificación', href: '#about'},
    {name: 'Mobiliario e Interiorismo', href: '#interior'},
    {name: 'Construcción', href: '#construction'},
    {name: 'Pisos', href: '#floors'},
    {name: 'Productos aplicados', href: '#applicated'},
-   {name: 'Área especificación', href: '#especification'},
-   {name: 'Sobre nosotros', href: '#about'},
+   {name: 'Visualización de diseños', href: 'https://www.vds-egger.com/?country=AR&language=es'},
    {name: 'Visitanos', href: '#maps'},
    {name: 'Contacto', href: '#contact'},
-   {name: 'Visualización de diseños', href: 'https://www.vds-egger.com/?country=AR&language=es', pref: true},
    {name: 'Optimizador de cortes', href: 'https://www.optimizadoronline.com/empresa/maderasmisionessa/opti#/login', pref: true},
-  ]
+]
 
 
 const MobileMenu = ({open, setOpen}) => {

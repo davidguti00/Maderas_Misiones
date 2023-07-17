@@ -6,6 +6,7 @@ import {
 	Grid,
 	Box,
   Button,
+  Link
 } from '@mui/material';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import ImageCarousel from '../../shared/Carousel';
@@ -53,10 +54,12 @@ const Landing = () => {
           <p>Descubre la belleza natural de la madera en nuestra web.</p>
       </Grid>
       <Grid item lg={12} md={12} xs={12} sx={{mt: 3}}>
-        <Button variant='contained' color='error' sx={{mr: 2, mb: 1}}>
-         <p style={{margin: 0, textAlign: 'start', fontSize: '0.8rem', fontWeight: 400}}>Presupuestar</p>
-         <ChevronRightIcon/>
-        </Button>
+        <Link href='#contact'>
+          <Button variant='contained' color='error' sx={{mr: 2, mb: 1}}>
+            <p style={{margin: 0, textAlign: 'start', fontSize: '0.8rem', fontWeight: 400}}>Presupuestar</p>
+            <ChevronRightIcon/>
+          </Button>
+        </Link>
       </Grid>
      </Grid>
 

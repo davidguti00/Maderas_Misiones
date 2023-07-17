@@ -5,7 +5,7 @@
 /* Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #BF4747 #DFE9EB;
+  scrollbar-color: #d32f2f #DFE9EB;
 }
 
 /* Chrome, Edge and Safari */
@@ -28,7 +28,7 @@
 
 *::-webkit-scrollbar-thumb {
   border-radius: 4px;
-  background-color: #BF4747;
+  background-color: #d32f2f;
 }
 
 *::-webkit-scrollbar-thumb:hover {

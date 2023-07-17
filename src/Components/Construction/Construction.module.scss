@@ -1,6 +1,6 @@
 .container{
 	position: relative;
-	min-height: 100vh;
+	min-height: 70vh;
 	background-color: #EEEEEE;
 
 
@@ -14,14 +14,14 @@
 		.title{
 			display: flex;
 			justify-content: flex-start;
-			margin-top: 17vh;
+			margin-top: 8vh;
 			margin-left: 10%;
 			
 			h3{
 				margin: 0;
 				font-family: 'Montserrat', sans-serif;
 				font-size: 1rem;
-				font-weight: 400;
+				font-weight: 500;
 				color: #222222;
 				border-bottom: 1px solid #222222;
 			}

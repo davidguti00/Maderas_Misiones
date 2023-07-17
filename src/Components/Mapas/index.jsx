@@ -6,7 +6,7 @@ import {
 
 const Mapas = () => {
 	return (
-		<Grid item container xs={12} id='maps' sx={{justifyContent: 'space-around', alignItems: 'center', minHeight: '50vh', backgroundColor: '#222222', paddingTop: '12vh', paddingBottom: '5vh'}}>
+		<Grid item container xs={12} id='maps' sx={{justifyContent: 'space-around', alignItems: 'center', minHeight: '50vh', backgroundColor: '#222222', paddingTop: '4vh', paddingBottom: '5vh'}}>
 			<Grid item xs={11.5}>
 				<p style={{color: '#EEEEEE', fontSize: '2rem'}}>Visitanos</p>
 			</Grid>

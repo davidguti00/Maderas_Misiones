@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Maderas_Misiones/static/css/main.4e49cb82.css",
-    "main.js": "/Maderas_Misiones/static/js/main.dbc84dd7.js",
+    "main.css": "/Maderas_Misiones/static/css/main.ad19a802.css",
+    "main.js": "/Maderas_Misiones/static/js/main.62500d47.js",
     "static/js/787.6388ec90.chunk.js": "/Maderas_Misiones/static/js/787.6388ec90.chunk.js",
     "static/media/landing4img.jpg": "/Maderas_Misiones/static/media/landing4img.278df169bd90fa679aa1.jpg",
     "static/media/landingimg.jpg": "/Maderas_Misiones/static/media/landingimg.21b29a8c358086a8ba02.jpg",
@@ -14,12 +14,12 @@
     "static/media/darklogo.png": "/Maderas_Misiones/static/media/darklogo.b34ea8edf810509a736b.png",
     "static/media/whitelogo.png": "/Maderas_Misiones/static/media/whitelogo.e8da45a9f04a152f54c5.png",
     "index.html": "/Maderas_Misiones/index.html",
-    "main.4e49cb82.css.map": "/Maderas_Misiones/static/css/main.4e49cb82.css.map",
-    "main.dbc84dd7.js.map": "/Maderas_Misiones/static/js/main.dbc84dd7.js.map",
+    "main.ad19a802.css.map": "/Maderas_Misiones/static/css/main.ad19a802.css.map",
+    "main.62500d47.js.map": "/Maderas_Misiones/static/js/main.62500d47.js.map",
     "787.6388ec90.chunk.js.map": "/Maderas_Misiones/static/js/787.6388ec90.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e49cb82.css",
-    "static/js/main.dbc84dd7.js"
+    "static/css/main.ad19a802.css",
+    "static/js/main.62500d47.js"
   ]
 }

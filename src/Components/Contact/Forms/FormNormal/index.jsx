@@ -24,8 +24,8 @@ const FormNormal = () => {
 
    return (
 		<Grid item xs={12} container className={s.container}>
-         <Grid item xs={10} md={9} lg={6.5} sx={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', mt: 3}}>  
-            <h4 style={{margin: 0, fontSize: '1.1rem', fontWeight: 500}}>Formulario de contacto</h4>
+         <Grid item xs={10} md={9} lg={6.5} sx={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', mt: 3, mb: 3}}>  
+            <h4 style={{margin: 0, fontSize: '1.2rem', fontWeight: 600}}>Formulario de contacto</h4>
             <p style={{margin: 0, marginTop: '5px', fontSize: '.9rem', fontWeight: 400}}>Comunicate para conocer más sobre nuestros productos</p>
          </Grid>
 

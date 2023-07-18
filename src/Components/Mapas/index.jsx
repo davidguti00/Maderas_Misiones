@@ -8,7 +8,7 @@ const Mapas = () => {
 	return (
 		<Grid item container xs={12} id='maps' sx={{justifyContent: 'space-around', alignItems: 'center', minHeight: '50vh', backgroundColor: '#222222', paddingTop: '4vh', paddingBottom: '5vh'}}>
 			<Grid item xs={11.5}>
-				<p style={{color: '#EEEEEE', fontSize: '2rem'}}>Visitanos</p>
+				<p style={{color: '#EEEEEE', fontSize: '1.5rem', marginLeft:'12%', fontWeight: '500'}}>Visitanos</p>
 			</Grid>
 			<Grid item xs={11.5} md={11.5} lg={5.8} sx={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
 				<iframe

@@ -34,12 +34,12 @@ const Especification = () => {
 							<p style={{margin: 0, fontSize: '1.2rem',marginBottom: '10px', fontWeight: 400, color: '#EEEEEE', textAlign: 'justify'}}>Lorem ipsum dolor sit amet, consesdfsdfsdfsdfsdfsdfsdfsd sdf sdfsdf  sdfsdfsdf sdffsdf sdf sdfsdf sdf sdfsdf sdf sd   sdfsdfsdfsd sfsdfsd  sdf sdf sdf sdf sctetur adipiscing elit. Integer iaculis tincidunt augue eget tristique. Sed eget volutpat nulla. Etiam luctus rutrum dolor in volutpat. Cras pharetra ipsum quis purus convallis, ut finibus quam eleifend. Maecenas at massa egestas, condimentum nunc vel, malesuada mauris. Vestibulum ultrices, ex sit amet accumsan porttitor, purus magna convallis neque, ac condimentum ex felis ac nisl. Duis sed consectetur libero, ac molestie risus.</p>
 							<Grid >
 								<Link href='#contact'>
-									<Button variant='contained' color='error' sx={{mr: 4, mb: 1, mt:3}}>
+									<Button variant='contained' color='error' sx={{mr: 5, mb: 1, mt:3, paddingLeft: '1.5rem', paddingRight:'1.5rem'}}>
 										Contactanos
 									</Button>
 								</Link>
 								<Link href='#maps'>
-									<Button variant='contained' color='error' sx={{mr: 4, mb: 1, mt:3}}>
+									<Button variant='contained' color='error' sx={{mr: 5, mb: 1, mt:3, paddingLeft: '2.5rem', paddingRight:'2.5rem'}}>
 										Visitanos
 									</Button>
 								</Link>

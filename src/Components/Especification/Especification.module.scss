@@ -1,6 +1,7 @@
 .container{
 	position: relative;
 	background-color: #222222;
+	min-height: 70vh;
 
 
 	.content{
@@ -19,8 +20,8 @@
 			h3{
 				margin: 0;
 				font-family: 'Montserrat', sans-serif;
-				font-size: 1rem;
-				font-weight: 400;
+				font-size: 1.2rem;
+				font-weight: 500;
 				color: #EEEEEE;
 				border-bottom: 1px solid #EEEEEE;
 			}

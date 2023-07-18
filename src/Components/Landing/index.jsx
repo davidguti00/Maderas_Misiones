@@ -55,8 +55,8 @@ const Landing = () => {
       </Grid>
       <Grid item lg={12} md={12} xs={12} sx={{mt: 3}}>
         <Link href='#contact'>
-          <Button variant='contained' color='error' sx={{mr: 2, mb: 1}}>
-            <p style={{margin: 0, textAlign: 'start', fontSize: '0.8rem', fontWeight: 400}}>Presupuestar</p>
+          <Button variant='contained' color='error' sx={{mr: 2, mb: 2}}>
+            <p style={{margin: 0, textAlign: 'start', fontSize: '0.8rem', fontWeight: 500}}>Presupuestar</p>
             <ChevronRightIcon/>
           </Button>
         </Link>

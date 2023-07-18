@@ -8,7 +8,6 @@ import whitelogo from './assets/whitelogo.png';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import {
 	Grid,
-  Button,
   Link,
   Menu, 
   MenuItem 

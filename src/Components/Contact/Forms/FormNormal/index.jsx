@@ -54,7 +54,7 @@ const FormNormal = () => {
                   <MenuItem value='none'>Seleccionar</MenuItem>
                   <MenuItem value='Mobiliario e interiorismo'>Mobiliario e interiorismo</MenuItem>
                   <MenuItem value='Construcción'>Construcción</MenuItem>
-                  <MenuItem value=''>Pisos</MenuItem>
+                  <MenuItem value='Pisos'>Pisos</MenuItem>
                </Select>
             </Grid>
             <Grid item xs={12} md={5.8} lg={5.8} >
@@ -76,8 +76,9 @@ const FormNormal = () => {
             </Grid>
 			</Grid>
 
-         <Grid item xs={12} sx={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-            <Button variant='contained' color='error' type='submit' onClick={() => alert('Enviado')}>
+         <Grid item xs={12} sx={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+            <p style={{fontSize: '0.85rem', textAlign: 'center'}}>Para realizar tu consulta, <a href="https://wa.link/jfv4mt" target="_blank" rel="noreferrer">escribinos por WhatsApp</a> o llamanos a los teléfonos publicados.</p>
+            <Button variant='contained' color='error' disabled aria-label='Enviar consulta'>
                <ArrowForwardIosIcon sx={{fontSize: '1.2rem', color: '#EEEEEE'}}/>
             </Button>
          </Grid>

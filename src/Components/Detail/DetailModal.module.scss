@@ -10,6 +10,7 @@
    transform: translate(-50%, -50%);
    min-height: 50%;
    max-height: 90%;
+   overflow-y: auto;
    border-radius: 5px;
    box-shadow: 0 5px 50px -3px rgba(0, 0, 0, 0.511);
 
@@ -23,7 +24,7 @@
    }
 
    .modalTexto{
-      height: 67vh;
+      min-height: 40vh;
    }
 }
 
@@ -48,7 +49,7 @@
       }
 
       .modalTexto{
-         min-height: 100vh;
+         min-height: auto;
       }
    }
 }

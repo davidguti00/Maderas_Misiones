@@ -26,7 +26,7 @@ const options = [
 const MobileMenu = ({open, setOpen}) => {
 
    return (
-      <Grid item container xs={12} className={`${s.container} ${open ? s.openContainer : ''}`}>\
+      <Grid item container xs={12} className={`${s.container} ${open ? s.openContainer : ''}`}>
          <Grid item xs={12} sx={{height: '100%'}}>
             <Grid item xs={12} sx={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '10vh'}}>
                <img src={logo} alt='logo' style={{width: '8rem', marginLeft: '2rem'}}/>

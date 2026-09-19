@@ -1,3 +1,4 @@
+import ProductImage from '../ProductImage';
 import { Carousel } from 'react-responsive-carousel';
 import s from './styles.module.scss'
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
@@ -17,8 +18,8 @@ function ImageCarousel({images, detail}) {
       {
         images?.length ?
         images?.map((item, i) => (
-          <div>
-            <img src={item} key={i} alt={`Background${i}`} style={{ objectFit: 'cover', width: detail ? '90%' : '100%', height: detail ? '100%' : '95vh'}}/>
+          <div key={i}>
+            <ProductImage src={item} alt={`Background${i}`} style={{ objectFit: 'cover', width: detail ? '90%' : '100%', height: detail ? '100%' : '95vh'}}/>
           </div>
         )) : null
       }

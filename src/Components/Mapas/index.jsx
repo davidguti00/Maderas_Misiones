@@ -17,7 +17,7 @@ const Mapas = () => {
 					width='100%'
 					height='300px'
 					style={{marginTop: '10px'}}
-					allowFullScreen="true"
+					allowFullScreen
 					loading="lazy"
 					referrerPolicy="no-referrer-when-downgrade"/>
 			</Grid>
@@ -28,7 +28,7 @@ const Mapas = () => {
 					width='100%'
 					style={{marginTop: '10px'}}
 					height='300px'
-					allowFullScreen="true"
+					allowFullScreen
 					loading="lazy"
 					referrerPolicy="no-referrer-when-downgrade"/>
 			</Grid>

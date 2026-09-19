@@ -9,8 +9,8 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import {
 	Grid,
   Link,
-  Menu, 
-  MenuItem 
+  Menu,
+  MenuItem
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 
@@ -68,7 +68,7 @@ const Navbar = ({ setOpen }) => {
           <Grid item xs={2} sm={2}  className={s.burger} sx={{mt: 1}}>
             <MenuIcon sx={{fontSize: '3rem', color: '#EEEEEE'}} onClick={() => setOpen(true)}/>
           </Grid>
-          
+
           <Grid item xs={10} sm={10} md={2} lg={2} sx={{ mb: 1 }} className={s.logo}>
             <Link href='#home' sx={{textDecoration: 'none'}}>
               <img src={whitelogo} alt="logo" style={{width:'8rem'}}/>
@@ -77,14 +77,14 @@ const Navbar = ({ setOpen }) => {
 
           <Grid container item md={10} lg={8} className={s.items}>
           {options.map((item, i) => (
-            item.selector ? 
-              <Grid item xs={2.5} sx={{display: 'flex', alingItems: 'center', justifyContent: 'center'}}
+            item.selector ?
+              <Grid key={i} item xs={2.5} sx={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}
                 onMouseEnter={(e) => handleOpenMenu(e, i)}
                 onMouseLeave={handleMenuContainerMouseLeave}
               >
                 <Link
                   href={item.href}
-                  className={s.link} 
+                  className={s.link}
                   target={item?.pref ? '_blank' : ''}
                   sx={item?.pref ? { border: '1px solid #EEEEEE', borderRadius: '5px' } : {}}
                 >
@@ -93,17 +93,17 @@ const Navbar = ({ setOpen }) => {
 
                 {activeMenuItem === i && (
                   <Menu sx={{
-                    "& .MuiMenu-paper": { 
-                      backgroundColor: '#22222299', 
-                      // marginTop: '38px', 
+                    "& .MuiMenu-paper": {
+                      backgroundColor: '#22222299',
+                      // marginTop: '38px',
                       zIndex: 999 }
                   }}
-                    anchorEl={anchorEl}mate3030mate3030
+                    anchorEl={anchorEl}
                     open={Boolean(anchorEl)}
                     onClose={handleCloseMenu}
                     anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
                     transformOrigin={{ vertical: 'top', horizontal: 'center' }}
-                    getContentAnchorEl={null}
+
                   >
                     {item.items.map((subItem, j) => (
                       <MenuItem
@@ -125,8 +125,8 @@ const Navbar = ({ setOpen }) => {
                   </Menu>
                 )}
               </Grid>
-             : 
-             <Grid item xs={2.5} sx={{display: 'flex', alingItems: 'center', justifyContent: 'center'}}>
+             :
+             <Grid key={i} item xs={2.5} sx={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                 <Link
                   href={item.href}
                   className={s.link}
@@ -136,7 +136,7 @@ const Navbar = ({ setOpen }) => {
                   {item.name}
                 </Link>
               </Grid>
-            
+
           ))}
           </Grid>
 
@@ -174,7 +174,7 @@ const Navbar = ({ setOpen }) => {
                       onClose={handleCloseMenu}
                       anchorOrigin={{ vertical: 'bottom', horizontal: 'left' }}
                       transformOrigin={{ vertical: 'top', horizontal: 'left' }}
-                      getContentAnchorEl={null}
+
                     >
                       {item.items.map((subItem, j) => (
                         <MenuItem key={j} onClick={handleCloseMenu}>

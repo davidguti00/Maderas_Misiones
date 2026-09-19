@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import s from './Topics.module.scss';
+import ProductImage from '../../../shared/ProductImage';
 
 //Material UI
 import {
@@ -22,12 +23,12 @@ const FloorTopics = () => {
 			<Grid item container xs={12} className={s.cards}>
 				{
 					cards.map((item, i) => (
-						<Grid key={i} item container lg={2.8} md={5.5} xs={10} className={s.card} onClick={() => {
+						<Grid key={i} item container lg={2.8} md={5.5} xs={10} className={s.card} role="button" tabIndex={0} aria-label={`Ver ${item.topic}`} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setOpen(true); setData(item); } }} onClick={() => {
 							setOpen(true);
 							setData(item);
 						}}>
 							<Grid item xs={12} className={s.imageContainer}>
-								<img src={item?.image} alt={item?.topic} className={s.image}/>
+								<ProductImage src={item?.image} alt={item?.topic} className={s.image}/>
 							</Grid>
 							<Grid item xs={12} className={s.topic}>
 								<p>{item?.topic}</p>

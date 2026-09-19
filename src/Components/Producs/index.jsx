@@ -26,7 +26,11 @@ const Products = () => {
 				</Grid>
 
 				<Grid item container xs={10} className={s.data}>
-					<Topics/>
+					<Grid item xs={12} sx={{color: '#EEEEEE', fontSize: '0.9rem', lineHeight: 1.6, px: 2}}>
+                        <p>Conocé las familias EGGER y sus aplicaciones para muebles e interiores. <a style={{color: 'inherit'}} href="https://www.egger.com/es/mobiliario-e-interiorismo/coleccion-decorativa/?country=AR" target="_blank" rel="noreferrer">Colección Decorativa 26+</a>.</p>
+                        <p>Para elegir colores y texturas, verificá una muestra original.</p>
+                    </Grid>
+                    <Topics/>
 				</Grid>
 			</Grid>
 		</Grid>

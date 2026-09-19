@@ -73,3 +73,7 @@ ul .MuiPaginationItem-root{
     font-size: 12px;
   }
 }
+/* Keep section headings readable below the existing fixed navigation. */
+#interior, #construction, #floors, #applicated, #about, #especification, #contact, #maps {
+  scroll-margin-top: 120px;
+}

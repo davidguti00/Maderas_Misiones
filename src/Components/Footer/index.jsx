@@ -15,7 +15,7 @@ const options = [
    {name: 'Mobiliario e Interiorismo', href: 'interior'},
    {name: 'Construcción', href: 'construction'},
    {name: 'Pisos', href: 'floors'},
-   {name: 'Sobre nosotros', href: 'about'},
+   {name: 'Sobre nosotros', href: 'especification'},
    {name: 'Contacto', href: 'contact'},
   ]
 
@@ -55,7 +55,7 @@ const Footer = () => {
                <h4 style={{fontSize: '1rem', color: '#EEEEEE', fontWeight: 400, textAlign: 'center'}}>MADERA QUE INSPIRA CONFIANZA</h4>
             </Grid>
             <Grid item xs={5} sx={{display: 'flex', justifyContent: 'flex-end', alignItems: 'center'}}>
-               <p style={{fontSize: '0.7rem', color: '#EEEEEE', textAlign: 'center'}}>2023 Maderas Misiones ®. Todos los derechos reservados</p>
+               <p style={{fontSize: '0.7rem', color: '#EEEEEE', textAlign: 'center'}}>{new Date().getFullYear()} Maderas Misiones ®. Todos los derechos reservados</p>
             </Grid>
          </Grid>
 		</Grid>

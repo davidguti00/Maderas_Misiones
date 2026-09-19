@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import s from './Topics.module.scss';
+import ProductImage from '../../../shared/ProductImage';
 
 //Material UI
 import {
@@ -8,10 +9,10 @@ import {
 import DetailModal from '../../Detail';
 
 const cards = [
-		{image: 'https://www.laviruta.com/resources/img/products/876f441b6012c47e8801f3c8da8ccfc1.jpg', topic: 'Fenolicos', section: 'Construcción'},
+		{image: null, topic: 'Fenólicos', section: 'Construcción'},
 		{image: 'https://www.insumasur.com/wp-content/uploads/2022/06/Placa-OSB0.jpg', topic: 'Tableros OSB', section: 'Construcción'},
-		{image: 'https://www.saltus.com.ar/wp-content/uploads/2014/12/tabla.jpg', topic: 'Maderas para obra', section: 'Construcción'},
-		{image: 'https://decandidocarpinteros.com/wp-content/uploads/2018/03/techos-de-madera-machimbres-sin-nudos.jpg', topic: 'Techos', section: 'Construcción'},
+		{image: null, topic: 'Maderas para obra', section: 'Construcción'},
+		{image: null, topic: 'Techos', section: 'Construcción'},
 
 ]
 
@@ -24,12 +25,12 @@ const ConstructionTopics = () => {
 			<Grid item container xs={12} className={s.cards}>
 				{
 					cards.map((item, i) => (
-						<Grid key={i} item container lg={2.8} md={5.5} xs={10} className={s.card} onClick={() => {
+						<Grid key={i} item container lg={2.8} md={5.5} xs={10} className={s.card} role="button" tabIndex={0} aria-label={`Ver ${item.topic}`} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setOpen(true); setData(item); } }} onClick={() => {
 							setOpen(true);
 							setData(item);
 						}}>
 							<Grid item xs={12} className={s.imageContainer}>
-								<img src={item?.image} alt={item?.topic} className={s.image}/>
+								<ProductImage src={item?.image} alt={item?.topic} className={s.image}/>
 							</Grid>
 							<Grid item xs={12} className={s.topic}>
 								<p>{item?.topic}</p>

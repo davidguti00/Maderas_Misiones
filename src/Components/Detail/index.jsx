@@ -1,3 +1,4 @@
+import { IconButton } from '@mui/material';
 import React from 'react'
 import s from './DetailModal.module.scss';
 
@@ -15,36 +16,38 @@ import {
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import CloseIcon from '@mui/icons-material/Close';
 import ImageCarousel from '../../shared/Carousel';
+import ProductContent from '../ProductContent';
+import ProductImage from '../../shared/ProductImage';
 
 
 const DetailModal = ({open, setOpen, data, dark}) => {
 
     return (
-        <Modal open={open} onClose={() => setOpen(false)}>
+        <Modal aria-labelledby="product-modal-title" open={open} onClose={() => setOpen(false)}>
         <Grid container>
             <Grid xs={12} md={10} lg={10} item container className={s.boxModal} sx={{ bgcolor: dark ? "#222222" : "#EEEEEE" }}>
                <Grid container item xs={12} sx={{display: "flex", justifyContent: "center"}}>
                   <Grid item container xs={12} md={12} lg={12} sx={{p: 2}}>
                      <Grid item xs={12} sx={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', px: 1, mt: 2}}>
                         <img src={dark ? logow : logo} alt='logo' height='30rem'/>
-                        <CloseIcon onClick={() => setOpen(false)} sx={{color: dark ? '#EEEEEE' : "#222222", transition: '.3s', '&:hover': {scale: '1.1', cursor: 'pointer'}}}/>
+                        <IconButton aria-label="Cerrar producto" onClick={() => setOpen(false)} sx={{color: dark ? "#EEEEEE" : "#222222"}}><CloseIcon/></IconButton>
                      </Grid>
 
                      <Grid item container xs={12} className={s.content}>
                         <Grid item xs={12} md={6} lg={6} sx={{display: 'flex', justifyContent: 'center', alignItems: 'center'}} className={s.modalImagen}>
                            { data.carrousel ?
                               <ImageCarousel images={data.images} detail/>
-                              : <img src={data.image} alt={data.topic} width='100%' height='90%' style={{objectFit: 'cover', borderRadius: '5px'}}/>
+                              : <ProductImage src={data.image} alt={data.topic} width='100%' height='90%' style={{objectFit: 'cover', borderRadius: '5px'}}/>
                            }
                         </Grid>
                         <Grid item container xs={12} lg={6} md={6} sx={{justifyContent: 'flex-start', alignItems: 'flex-start', p: 2}} className={s.modalTexto}>
                            <Grid item container xs={12}>
                               <Grid item xs={12} sx={{mt: 3}}>
                                  <h4 style={{fontWeight: '500', opacity: '0.8', margin: 0, color: dark ? '#EEEEEE' : '#222222'}}>{data.section}</h4>
-                                 <h4 style={{margin: 0, color: dark ? '#EEEEEE' : '#222222'}}>{data.topic}</h4>
+                                 <h4 id="product-modal-title" style={{margin: 0, color: dark ? '#EEEEEE' : '#222222'}}>{data.title || data.topic}</h4>
                               </Grid>
                               <Grid item xs={12} sx={{pt: 3}}>
-                                 <p style={{fontWeight: 300, margin: 0, color: dark ? '#EEEEEE' : '#222222', textAlign: 'justify'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit, nulla auctor pharetra posuere, velit diam tincidunt turpis, id tincidunt mauris elit sit amet tortor. Pellentesque faucibus elit ligula, ullamcorper pharetra dolor dapibus eget. Curabitur vitae sollicitudin ipsum. Sed lacinia blandit magna, ut maximus ipsum mattis non.</p>
+                                 <div style={{color: dark ? '#EEEEEE' : '#222222'}}><ProductContent data={data}/></div>
                               </Grid>
                               <Grid item xs={12} sx={{mt: 6}}>
                                  <Link href='#contact' sx={{textDecoration: 'none'}}>
@@ -56,7 +59,7 @@ const DetailModal = ({open, setOpen, data, dark}) => {
                                  {
                                     data?.multipleButtons?.length ? 
                                     data?.multipleButtons?.map((button, i) => (
-                                       <Link key={i} href={button?.link} target='_blank' sx={{textDecoration: 'none'}}>
+                                       <Link key={i} href={button?.link} target='_blank' rel='noreferrer' sx={{textDecoration: 'none'}}>
                                           <Button  variant='contained' color='error' sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', mt: 1}}>
                                              <p style={{margin: 0, marginTop: '2px'}}>{button?.title}</p>
                                              <ChevronRightIcon/>

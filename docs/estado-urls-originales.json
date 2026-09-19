@@ -1,0 +1,392 @@
+[
+  {
+    "url": "https://maderasamiano.com.ar/public/uploads/secciones/145/archivos/pfs.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "7a06d0",
+        "wall_time_seconds": 0.00000425,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  },
+  {
+    "url": "https://maderasamiano.com.ar/public/uploads/secciones/145/archivos/pst.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "8a13a3",
+        "wall_time_seconds": 4.58e-7,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  },
+  {
+    "url": "https://maderasamiano.com.ar/public/uploads/secciones/145/archivos/U999.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "7a294c",
+        "wall_time_seconds": 6.67e-7,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  },
+  {
+    "url": "https://maderasamiano.com.ar/public/uploads/secciones/145/archivos/u732.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "8318e9",
+        "wall_time_seconds": 5e-7,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  },
+  {
+    "url": "https://maderasamiano.com.ar/public/uploads/secciones/145/archivos/comp.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "33220d",
+        "wall_time_seconds": 0.0000045,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  },
+  {
+    "url": "https://maderasamiano.com.ar/public/uploads/secciones/145/archivos/euro.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "b1fc20",
+        "wall_time_seconds": 0.000001375,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  },
+  {
+    "url": "https://maderasamiano.com.ar/public/uploads/secciones/145/archivos/alv.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "0b4b40",
+        "wall_time_seconds": 5.83e-7,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  },
+  {
+    "url": "https://maderasamiano.com.ar/public/uploads/secciones/145/archivos/h3403.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "08b6d7",
+        "wall_time_seconds": 0.000001542,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  },
+  {
+    "url": "https://maderasamiano.com.ar/public/uploads/secciones/145/archivos/h1181.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "f59cf2",
+        "wall_time_seconds": 0.00000175,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  },
+  {
+    "url": "https://pathwoodsmart.com/wp-content/uploads/2021/12/tableros-MDF.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "2d908e",
+        "wall_time_seconds": 1.5671085,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  },
+  {
+    "url": "https://edimca.com.ec/assets/images/products/madera/venta-madera-alistonada-edimca-guayaquil.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "3ce8d6",
+        "wall_time_seconds": 2.666734292,
+        "exit_code": 0,
+        "original_token_count": 7,
+        "output": "404 text/html; charset=UTF-8"
+      }
+    }
+  },
+  {
+    "url": "https://maderamen.com.ar/dyf-muebles/wp-content/uploads/sites/4/2018/03/paneles.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "32ea60",
+        "wall_time_seconds": 0.000965042,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  },
+  {
+    "url": "https://www.madereralobos.com.ar/images/productos/759.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "71f39e",
+        "wall_time_seconds": 4.59e-7,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  },
+  {
+    "url": "https://i0.wp.com/icasasecologicas.com/wp-content/uploads/2018/01/tablero-laminado.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "9621c3",
+        "wall_time_seconds": 0.851544416,
+        "exit_code": 0,
+        "original_token_count": 7,
+        "output": "404 text/html; charset=utf-8"
+      }
+    }
+  },
+  {
+    "url": "https://elgalponmaderas.com.ar/wp-content/uploads/2018/11/1.5.1-IMG-Chapadur-1.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "940eb8",
+        "wall_time_seconds": 0.000004167,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  },
+  {
+    "url": "https://http2.mlstatic.com/D_602865-MLA42063990300_062020-O.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "d7906e",
+        "wall_time_seconds": 0.000002125,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  },
+  {
+    "url": "https://grupoeurosa.com/2023/Grupo%20Euro%20-%20Arg%20Catalogo.pdf",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "8aefcb",
+        "wall_time_seconds": 0.307199125,
+        "exit_code": 0,
+        "original_token_count": 7,
+        "output": "404 text/html; charset=utf-8"
+      }
+    }
+  },
+  {
+    "url": "http://www.hafeleargentina.com.ar/Actualizac_catalogo/2020/catalogo_muebles.pdf",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "d60816",
+        "wall_time_seconds": 0.000001541,
+        "exit_code": 0,
+        "original_token_count": 7,
+        "output": "404 text/html; charset=utf-8"
+      }
+    }
+  },
+  {
+    "url": "https://edimca.com.ec/assets/images/products/adhesivos/venta-de-adhesivos-para-madera-en-edimca.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "82e1a1",
+        "wall_time_seconds": 2.6125555,
+        "exit_code": 0,
+        "original_token_count": 7,
+        "output": "404 text/html; charset=UTF-8"
+      }
+    }
+  },
+  {
+    "url": "https://cantisa.es/wp-content/uploads/2020/03/rNH5_2923-W.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "b6b30e",
+        "wall_time_seconds": 0.872993292,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  },
+  {
+    "url": "https://www.vierabinet.com/v1/wp-content/uploads/2019/05/revestimientos-madera-pared-interiores-entablonado-vierabinet-01.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "fb89d4",
+        "wall_time_seconds": 0.466503583,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  },
+  {
+    "url": "https://elgalponmaderas.com.ar/wp-content/uploads/2018/11/IMG-Molduras-1.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "b4bd0f",
+        "wall_time_seconds": 0.000001459,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  },
+  {
+    "url": "https://aglomareggerhaus.com.ar/wp-content/uploads/2023/04/Molduras-Egger.pdf",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "e63f91",
+        "wall_time_seconds": 0.000002958,
+        "exit_code": 6,
+        "original_token_count": 16,
+        "output": "curl: (6) Could not resolve host: aglomareggerhaus.com.ar\n000 "
+      }
+    }
+  },
+  {
+    "url": "https://www.laviruta.com/resources/img/products/876f441b6012c47e8801f3c8da8ccfc1.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "bada22",
+        "wall_time_seconds": 0.0000015,
+        "exit_code": 0,
+        "original_token_count": 9,
+        "output": "503 text/html; charset=iso-8859-1"
+      }
+    }
+  },
+  {
+    "url": "https://www.insumasur.com/wp-content/uploads/2022/06/Placa-OSB0.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "f6903d",
+        "wall_time_seconds": 0.797142042,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  },
+  {
+    "url": "https://www.saltus.com.ar/wp-content/uploads/2014/12/tabla.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "15ac02",
+        "wall_time_seconds": 0.61514175,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "404 text/html"
+      }
+    }
+  },
+  {
+    "url": "https://decandidocarpinteros.com/wp-content/uploads/2018/03/techos-de-madera-machimbres-sin-nudos.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "5c61d0",
+        "wall_time_seconds": 0.072603458,
+        "exit_code": 6,
+        "original_token_count": 16,
+        "output": "curl: (6) Could not resolve host000 : decandidocarpinteros.com\n"
+      }
+    }
+  },
+  {
+    "url": "https://www.cordobatimes.com/wp-content/uploads/2020/01/pisos-flotantes-696x411.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "1bed64",
+        "wall_time_seconds": 0.378370542,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  },
+  {
+    "url": "https://http2.mlstatic.com/D_NQ_NP_880942-MLA27185939225_042018-O.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "244dff",
+        "wall_time_seconds": 0.058653291,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  },
+  {
+    "url": "https://www.vierabinet.com/v1/wp-content/uploads/2019/05/decks-coextrusion-vierabinet-09.jpg",
+    "result": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "31aaad",
+        "wall_time_seconds": 0.41852525,
+        "exit_code": 0,
+        "original_token_count": 4,
+        "output": "200 image/jpeg"
+      }
+    }
+  }
+]

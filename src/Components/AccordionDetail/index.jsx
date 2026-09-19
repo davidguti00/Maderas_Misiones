@@ -17,7 +17,7 @@ import ProductImage from '../../shared/ProductImage';
 import { Button } from '@mui/material';
 
 
-const AccordionDetail = ({open, setOpen, data, dark}) => {
+const AccordionDetail = ({open, setOpen, data, dark, children}) => {
 	const [selected, setSelected] = useState({ image: data?.image, title: data?.topic });
 
 	return (
@@ -36,6 +36,7 @@ const AccordionDetail = ({open, setOpen, data, dark}) => {
 							</Grid>
 							<Grid item lg={7.4} xs={11} className={s.acordiones}>
                                 <h2 id="family-modal-title" style={{fontSize: '1.2rem'}}>{data.topic}</h2>
+                                {children}
 								{
 									data.accordeonItems.map((item, i) => {
 										return <AccordionItem data={item} key={i} setSelected={() => setSelected({image: item.image, title: item.title})}/>

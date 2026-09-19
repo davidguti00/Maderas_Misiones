@@ -1,0 +1,58 @@
+{
+  "topic": "Pisos laminados EGGER",
+  "section": "Pisos",
+  "image": "/images/egger/naturesense.jpg",
+  "accordeonItems": [
+    {
+      "title": "NatureSense",
+      "description": "La línea clásica de pisos laminados EGGER combina diseños de madera con una superficie para el uso cotidiano.",
+      "features": [
+        "Elaborado principalmente con materias primas renovables, sin PVC ni plastificantes.",
+        "Resiste rayones, golpes y luz; es fácil de limpiar.",
+        "Instalación por encastre y compatibilidad con calefacción por losa radiante.",
+        "Formatos de la línea EGGER: Classic 1292 × 193 mm, 7 u 8 mm; Kingsize 1292 × 327 mm, 8 mm; Large 1292 × 246 mm, 8 mm."
+      ],
+      "id": "naturesense",
+      "image": "/images/egger/naturesense.jpg",
+      "imageSource": "https://cdn.egger.com/img/cms/ff58d5b2-cb11-41dc-ba72-5cec737f1c8a/eefbabc4-671a-4f12-bd14-342d257053a6/FALLBACK/efp_efc25_flo_livingroom_classic_wv4_el2160.jpg?cachekey=178825",
+      "source": "https://www.egger.com/es/pisos/productos/naturesense?country=AR"
+    },
+    {
+      "title": "NatureSense Herringbone",
+      "description": "El diseño de colocación en espiga aporta una estética de parquet clásico con las ventajas del laminado.",
+      "features": [
+        "Instalación flotante mediante UniZip.",
+        "Superficie resistente a rayones, golpes y luz; compatible con losa radiante."
+      ],
+      "id": "naturesense-herringbone",
+      "image": "/images/egger/naturesense-herringbone.jpg",
+      "imageSource": "https://cdn.egger.com/img/cms/ff58d5b2-cb11-41dc-ba72-5cec737f1c8a/e3462330-b8b3-409d-b860-315e90f57d86/FALLBACK/efp_efc25_flo_livingroom_herringbone_wv4_el2152.jpg?cachekey=178796",
+      "source": "https://www.egger.com/es/pisos/productos/naturesense?country=AR"
+    },
+    {
+      "title": "NatureSense Aqua",
+      "description": "Pisos resistentes al agua por hasta 24 horas según las especificaciones de EGGER, con encastre Aqua CLIC it!.",
+      "features": [
+        "Resiste manchas, rayones, golpes y luz; limpieza sencilla.",
+        "Formatos EGGER: Classic 1292 × 193 mm, 8 o 10 mm; Kingsize 1292 × 327 mm, 8 mm; Large 1292 × 246 mm, 8 mm; Long 2050 × 246 mm, 10 mm; Medium 1292 × 135 mm, 8 mm."
+      ],
+      "applications": "Cocinas y baños, respetando las instrucciones de instalación y uso del fabricante.",
+      "id": "naturesense-aqua",
+      "image": "/images/egger/naturesense-aqua.jpg",
+      "imageSource": "https://cdn.egger.com/img/cms/ff58d5b2-cb11-41dc-ba72-5cec737f1c8a/fdfe3bb4-1a76-44ca-9b33-25386793ab4b/FALLBACK/efp_efc25_flo_kitchen_classic_wv4_el2113.jpg?cachekey=178767",
+      "source": "https://www.egger.com/es/pisos/productos/naturesense?country=AR"
+    },
+    {
+      "title": "NatureSense Aqua+",
+      "description": "La variante para ambientes con mayores exigencias de humedad combina un núcleo con formulación antihinchazón y encastre Aqua CLIC it!.",
+      "features": [
+        "Superficie resistente y mantenimiento sencillo."
+      ],
+      "applications": "Cocinas, baños, entradas y pasillos, según las especificaciones del fabricante.",
+      "id": "naturesense-aqua-plus",
+      "image": "/images/egger/naturesense-aqua-plus.jpg",
+      "imageSource": "https://cdn.egger.com/img/cms/ff58d5b2-cb11-41dc-ba72-5cec737f1c8a/a2fc8fbb-686d-4ec9-aee9-638fb3316d5c/FALLBACK/efp_efc25_bathroom_bedroom.jpg?cachekey=167687",
+      "source": "https://www.egger.com/es/pisos/productos/naturesense?country=AR"
+    }
+  ]
+}

@@ -7,9 +7,11 @@ import {
 	Grid,
 } from '@mui/material';
 import DetailModal from '../../Detail';
+import AccordionDetail from '../../AccordionDetail';
+import eggerFloors from '../../../data/floors-egger.json';
 
 const cards = [
-		{image: 'https://www.cordobatimes.com/wp-content/uploads/2020/01/pisos-flotantes-696x411.jpg', topic: 'Pisos Flotantes', section:'Pisos'},
+		eggerFloors,
 		{image: 'https://http2.mlstatic.com/D_NQ_NP_880942-MLA27185939225_042018-O.jpg', topic: 'Decks Madera', section:'Pisos'},
 		{image: 'https://www.vierabinet.com/v1/wp-content/uploads/2019/05/decks-coextrusion-vierabinet-09.jpg', topic: 'Decks WPC', section:'Pisos'},
 ]
@@ -38,7 +40,12 @@ const FloorTopics = () => {
 					))
 				}
 			</Grid>
-			{open ? <DetailModal open={open} setOpen={setOpen} data={data}/> : null}
+			{open && (data.accordeonItems ? (
+                <AccordionDetail open={open} setOpen={setOpen} data={data}>
+                    <p style={{fontSize: '0.9rem', lineHeight: 1.65}}>Familias de la Colección de Pisos 25+ de EGGER. Consultanos por las líneas, formatos y diseños que podemos ofrecerte para tu proyecto.</p>
+                    <p style={{fontSize: '0.9rem'}}><a href="https://www.egger.com/es/pisos/busqueda-disenos?country=AR" target="_blank" rel="noreferrer" style={{color: 'inherit'}}>Ver diseños de la colección EGGER ↗</a></p>
+                </AccordionDetail>
+            ) : <DetailModal open={open} setOpen={setOpen} data={data}/>)}
 		</Grid>
 	)
 }

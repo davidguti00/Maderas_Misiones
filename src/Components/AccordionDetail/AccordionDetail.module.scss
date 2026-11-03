@@ -45,6 +45,20 @@
   }
 }
 
+.collage {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  width: 100%;
+  img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  img:first-child { grid-column: 1 / -1; }
+}
+
 @media screen and (max-width: 1200px){
   .boxModal{
     .datacontainer{
@@ -58,6 +72,12 @@
         margin-top: 20px;
         left: 0;
         object-fit: scale-down;
+      }
+      .image.galleryPanel {
+        max-width: 100%;
+        height: auto;
+        max-height: none;
+        margin-bottom: 20px;
       }
       
       .acordiones{

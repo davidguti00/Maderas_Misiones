@@ -2,57 +2,132 @@
   {
     "topic": "Tableros decorativos",
     "section": "Mobiliario e interiorismo",
-    "image": "/images/egger/decorativeboardse1p2.png",
+    "image": "/images/egger/tableros-decorativos-familia.webp",
     "accordeon": true,
     "accordeonItems": [
       {
-        "id": "decorativeboardse1p2",
-        "title": "Eurodekor · aglomerado revestido E1 P2",
-        "description": "Tablero de partículas para interiores, recubierto en ambas caras con papel decorativo impregnado. Una base decorativa para combinar frentes y cuerpos de muebles.",
-        "features": [
-          "Superficie resistente a la abrasión, al rayado y a la luz.",
-          "Diseños y texturas coordinados con la Colección Decorativa de EGGER."
+        "id": "decorativeboardse05p2",
+        "title": "Eurodekor Aglomerado Revestido",
+        "description": "Los tableros aglomerados revestidos EGGER (según EN 14322) son los tableros estándar para aplicaciones verticales y horizontales en muebles y diseño de interiores en ambientes secos. El material principal de esta versión es un tablero de aglomerado E1E05 TSCA P2 recubierto por ambas caras con papel decorativo impregnado. Cumplen con los estrictos requisitos de los estándares y las clases de formaldehído (regulación TSCA VI) y están disponibles en diseños y texturas combinados con la Colección Decorativa.",
+        "image": "/images/egger/decorativeboardse05p2.webp",
+        "imageSource": "https://cdn.egger.com/img/pim/8854301573150/8854590259230/AR_4_3.webp?width=1024&srcext=png",
+        "source": "https://www.egger.com/es/mobiliario-e-interiorismo/productos/decorativeboardse05p2?country=AR",
+        "verifiedAt": "2026-11-02",
+        "contentSections": [
+          {
+            "title": "Aplicaciones",
+            "items": [
+              "Muebles y diseño de interiores (por ejemplo, frentes de muebles, cuerpo, revestimiento de paredes, cubiertas de mesa expuestas a desgaste moderado)"
+            ]
+          },
+          {
+            "title": "Ventajas",
+            "items": [
+              "Superficie atractiva y duradera",
+              "Las bacterias y los gérmenes se reducen en un 99,9 % en 24 horas",
+              "Ahorro de recursos gracias al uso de material reciclado"
+            ]
+          },
+          {
+            "title": "Características",
+            "items": [
+              "Resistente a la abrasión y a los rayones",
+              "Resistente a la luz",
+              "Propiedad de superficie antimicrobiana según ISO 22196 (= JIS Z 2801)",
+              "Reciclable",
+              "Certificado según TÜV-PROFiCERT-producto Interior PREMIUM"
+            ]
+          }
         ],
-        "applications": "Frentes, cuerpos de muebles, revestimientos de paredes y tapas de mesa de uso moderado en ambientes secos.",
-        "difference": "El revestimiento decorativo ya forma parte del tablero; el MDF crudo necesita una terminación posterior.",
-        "image": "/images/egger/decorativeboardse1p2.png",
-        "imageSource": "https://cdn.egger.com/img/pim/8854301966366/8854590488606/original.png",
-        "source": "https://www.egger.com/es/mobiliario-e-interiorismo/productos/decorativeboardse1p2?country=AR",
-        "verifiedAt": "2026-09-18"
+        "contentOrigin": "WEB1.pdf"
       },
       {
         "id": "decorativemdfeucalight",
-        "title": "Tablero Decorativo MDF Light E1",
-        "description": "MDF liviano recubierto con papel decorativo impregnado en ambas caras, para resolver muebles y paneles con una terminación decorativa coordinada.",
-        "features": [
-          "Permite perfilar y trabajar los bordes.",
-          "Diseños y texturas de la Colección Decorativa."
-        ],
-        "applications": "Frentes, estantes, paneles decorativos y revestimientos interiores.",
-        "difference": "Su soporte es MDF liviano, a diferencia del tablero decorativo de aglomerado.",
+        "title": "Eurodekor MDF Revestido",
+        "description": "Los tableros MDF revestidos son recubiertos por ambas caras con papel decorativo impregnado para aplicaciones verticales y horizontales en mobiliario e interiorismo. Están disponibles en diseños y texturas combinados con la Colección Decorativa.",
         "image": "/images/egger/decorativemdfeucalight.png",
         "imageSource": "https://cdn.egger.com/img/pim/8854303211550/8854591176734/original.png",
         "source": "https://www.egger.com/es/mobiliario-e-interiorismo/productos/decorativemdfeucalight?country=AR",
-        "verifiedAt": "2026-09-18"
+        "verifiedAt": "2026-11-02",
+        "contentSections": [
+          {
+            "title": "Aplicaciones",
+            "items": [
+              "Frentes de muebles de alta calidad",
+              "Estantes",
+              "Revestimientos de paredes",
+              "Paneles decorativos",
+              "Diseño de interiores y mobiliario"
+            ]
+          },
+          {
+            "title": "Ventajas",
+            "items": [
+              "Tablero estable y fácil de cargar",
+              "Fácil procesamiento de bordes",
+              "Fácil de perfilar",
+              "Las bacterias y los gérmenes se reducen en un 99,9 % en 24 horas"
+            ]
+          },
+          {
+            "title": "Características",
+            "items": [
+              "Alta resistencia a la tracción transversal y estabilidad de los bordes",
+              "Bajo comportamiento de hinchamiento",
+              "Propiedad superficial antimicrobiana según ISO 22196 (= JIS Z 2801)"
+            ]
+          }
+        ],
+        "contentOrigin": "WEB1.pdf"
       },
       {
         "id": "decorativelightweight",
-        "title": "Eurolight · tableros alveolares revestidos",
-        "description": "Tablero compuesto con núcleo de cartón alveolar entre capas de material a base de madera revestidas. Su estructura combina bajo peso y estabilidad.",
-        "features": [
-          "Liviano y resistente a la flexión.",
-          "Superficie resistente a la abrasión y al rayado; diseños y texturas coordinables."
-        ],
-        "applications": "Mesas, puertas interiores y corredizas, equipamiento comercial y stands en ambientes secos.",
-        "difference": "El núcleo alveolar reduce el peso respecto de una estructura maciza. La selección de herrajes y el mecanizado deben seguir las indicaciones del fabricante.",
+        "title": "Eurolight Tablero Alveolar Revestido",
+        "description": "Una solución a la vez ligera y resistente.\n\nEl Eurolight, tablero alveolar, tiene una estructura tipo sándwich, constituida por dos revestimientos de tablero de partículas de 8 mm de espesor y un núcleo alveolar de cartón reciclado. Su aspecto de gran espesor, así como su poco peso y su robustez, hacen de él una solución idónea para múltiples aplicaciones: tabiques, cascos de muebles, tapas de mesa, mobiliario de oficina, puertas correderas, puertas de interior y mobiliario en general.",
         "image": "/images/egger/decorativelightweight.png",
         "imageSource": "https://cdn.egger.com/img/pim/8854304260126/8854591307806/original.png",
         "source": "https://www.egger.com/es/mobiliario-e-interiorismo/productos/decorativelightweight?country=AR",
-        "verifiedAt": "2026-09-18"
+        "verifiedAt": "2026-11-02",
+        "contentSections": [
+          {
+            "title": "Ventajas",
+            "items": [
+              "Mobiliario de gama alta de gran espesor a un coste accesible",
+              "Más manejable y fácil de transportar que un tablero de partículas del mismo espesor, con un peso del 60 % más ligero",
+              "Ahorra costos de transporte",
+              "Superficie atractiva y duradera",
+              "Bacterias y gérmenes se reducen un 99,9 % en 24 horas",
+              "Su núcleo alveolar permite la integración de iluminación LED y de cables en cualquier sentido"
+            ]
+          },
+          {
+            "title": "Características",
+            "items": [
+              "Livianos",
+              "Alta resistencia a la flexión",
+              "Resistente a la abrasión y a los rayones",
+              "Resistente a la luz",
+              "Apto para alimentos",
+              "Superficie con propiedades antibacteriales de acuerdo a la norma ISO 22196 (= JIS Z 2801)",
+              "Reciclable"
+            ]
+          }
+        ],
+        "contentOrigin": "WEB1.pdf"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/egger/decorativos-aplicacion-1.webp",
+        "alt": "Mueble y estantes revestidos con diseño madera"
       },
       {
-        "id": "compactos",
-        "title": "Compactos"
+        "image": "/images/egger/decorativos-aplicacion-2.webp",
+        "alt": "Biblioteca y mobiliario de estar con tableros decorativos"
+      },
+      {
+        "image": "/images/egger/decorativos-aplicacion-3.webp",
+        "alt": "Frentes de armario y mobiliario de dormitorio"
       }
     ]
   },
@@ -202,6 +277,10 @@
         "imageSource": "https://cdn.egger.com/img/pim/8860545384478/8860545417246/original.png",
         "source": "https://www.egger.com/es/mobiliario-e-interiorismo/productos/laminatepsmatt?country=AR",
         "verifiedAt": "2026-09-18"
+      },
+      {
+        "id": "compactos",
+        "title": "Compactos"
       }
     ]
   },

@@ -10,7 +10,7 @@
     "image": "/images/egger/decorativemdfeucalight.png",
     "imageSource": "https://cdn.egger.com/img/pim/8854303211550/8854591176734/original.png",
     "source": "https://www.egger.com/es/mobiliario-e-interiorismo/productos/decorativemdfeucalight?country=AR",
-    "verifiedAt": "2026-09-18",
+    "verifiedAt": "2026-11-02",
     "processing": "PNG oficial reducido proporcionalmente a un máximo de 1000 px; sin cambios en el diseño ni el color."
   },
   "perfectsensepmmdf": {
@@ -31,7 +31,7 @@
     "image": "/images/egger/decorativelightweight.png",
     "imageSource": "https://cdn.egger.com/img/pim/8854304260126/8854591307806/original.png",
     "source": "https://www.egger.com/es/mobiliario-e-interiorismo/productos/decorativelightweight?country=AR",
-    "verifiedAt": "2026-09-18",
+    "verifiedAt": "2026-11-02",
     "processing": "PNG oficial reducido proporcionalmente a un máximo de 1000 px; sin cambios en el diseño ni el color."
   },
   "mdfste1pine": {
@@ -110,5 +110,12 @@
     "source": "https://www.egger.com/es/mobiliario-e-interiorismo/productos/wallsystem2?country=AR",
     "verifiedAt": "2026-09-18",
     "processing": "PNG oficial reducido proporcionalmente a un máximo de 1000 px; sin cambios en el diseño ni el color."
+  },
+  "decorativeboardse05p2": {
+    "image": "/images/egger/decorativeboardse05p2.webp",
+    "imageSource": "https://cdn.egger.com/img/pim/8854301573150/8854590259230/AR_4_3.webp?width=1024&srcext=png",
+    "source": "https://www.egger.com/es/mobiliario-e-interiorismo/productos/decorativeboardse05p2?country=AR",
+    "verifiedAt": "2026-11-02",
+    "processing": "WebP oficial de CDN; sin edición local."
   }
 }

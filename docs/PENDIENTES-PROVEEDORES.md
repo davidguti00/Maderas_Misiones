@@ -6,7 +6,7 @@
 | Mobiliario | Herrajes | ¿Qué marcas trabajan? | Fabricante/proveedor e información. |
 | Tableros | Tablero Madera Listonada; Tableros Enchapados Natural | ¿Qué proveedor y qué maderas corresponden a cada uno? | Proveedor e información; imagen de madera listonada. |
 | Tableros | Terciados; Chapadur | ¿Qué marca o proveedor corresponde a cada categoría? | Fabricante/proveedor e información. |
-| Tableros decorativos | Compactos | ¿Todavía los venden? Si sí, ¿qué marca y producto son? ¿Siguen trabajando Topmatt? | Confirmación de comercialización, fabricante/proveedor, información e imagen. |
+| Laminados | Compactos | ¿Todavía los venden? Si sí, ¿qué marca y producto son? ¿Siguen trabajando Topmatt? | Confirmación de comercialización, fabricante/proveedor, información e imagen. |
 | Construcción | Fenólicos; Tableros OSB | ¿Qué marca o proveedor trabajan para cada uno? | Fabricante/proveedor e información; imagen de fenólicos. |
 | Construcción | Maderas para obra; Techos | ¿Qué proveedor y qué tipos de madera o productos trabajan? | Proveedor, información e imágenes. |
 | Pisos | Pisos laminados EGGER | ¿Qué líneas NatureSense y qué diseños mantienen habitualmente? ¿También trabajan AquaDura? | Confirmación de líneas, formatos y diseños habituales. AquaDura queda fuera de la web hasta confirmarlo. |

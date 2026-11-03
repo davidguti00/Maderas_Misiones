@@ -19,6 +19,7 @@ import { Button } from '@mui/material';
 
 const AccordionDetail = ({open, setOpen, data, dark, children}) => {
 	const [selected, setSelected] = useState({ image: data?.image, title: data?.topic });
+	const [showGallery, setShowGallery] = useState(Boolean(data?.gallery?.length));
 
 	return (
 		<Modal aria-labelledby="family-modal-title" open={open} onClose={() => setOpen(false)}>
@@ -31,15 +32,18 @@ const AccordionDetail = ({open, setOpen, data, dark, children}) => {
 						</Grid>
 
 						<Grid item container xs={11.5} className={s.datacontainer}>
-							<Grid item lg={5} xs={11} className={s.image}>
-								<ProductImage src={selected.image} alt={selected.title} style={{objectFit: 'scale-down', height: '85%', width: '100%'}}/>
+							<Grid item lg={5} xs={11} className={`${s.image} ${showGallery ? s.galleryPanel : ''}`}>
+                                {showGallery ? <div className={s.collage} aria-label="Aplicaciones de tableros decorativos">
+                                    {data.gallery.map(photo => <ProductImage key={photo.image} src={photo.image} alt={photo.alt}/>)}
+                                </div> : <ProductImage src={selected.image} alt={selected.title} style={{objectFit: 'scale-down', height: '85%', width: '100%'}}/>}
+								{data.gallery?.length > 0 && !showGallery && <Button size="small" color="inherit" onClick={() => setShowGallery(true)}>Ver aplicaciones</Button>}
 							</Grid>
 							<Grid item lg={7.4} xs={11} className={s.acordiones}>
                                 <h2 id="family-modal-title" style={{fontSize: '1.2rem'}}>{data.topic}</h2>
                                 {children}
 								{
 									data.accordeonItems.map((item, i) => {
-										return <AccordionItem data={item} key={i} setSelected={() => setSelected({image: item.image, title: item.title})}/>
+										return <AccordionItem data={item} key={i} setSelected={() => { setSelected({image: item.image, title: item.title}); setShowGallery(false); }}/>
 									})
 								}
                                 <Button variant="contained" color="error" href="#contact" onClick={() => setOpen(false)} sx={{mt: 2}}>Consultar</Button>

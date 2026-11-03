@@ -7,6 +7,25 @@ import cards from './Components/Producs/Topics/info';
 
 const openCard = name => fireEvent.click(screen.getByRole('button', { name: `Ver ${name}`, exact: true }));
 
+test('WEB1 conserva los bloques del cliente y alterna collage con imágenes individuales', () => {
+  render(<Topics />);
+  openCard('Tableros decorativos');
+  expect(screen.getByLabelText('Aplicaciones de tableros decorativos').querySelectorAll('img')).toHaveLength(3);
+  const titles = ['Eurodekor Aglomerado Revestido', 'Eurodekor MDF Revestido', 'Eurolight Tablero Alveolar Revestido'];
+  for (const title of titles) {
+    fireEvent.click(screen.getByRole('button', {name: title, exact: true}));
+    const region = screen.getByRole('region', {name: title, exact: true});
+    expect(within(region).getByRole('heading', {name: 'Ventajas'})).toBeVisible();
+    expect(within(region).getByRole('heading', {name: 'Características'})).toBeVisible();
+    expect(screen.getByRole('img', {name: title, exact: true})).toBeVisible();
+  }
+  expect(screen.getByText(/60 % más ligero/)).toBeVisible();
+  const first = screen.getByRole('region', {name: titles[0], exact: true});
+  expect(within(first).getByRole('link', {name: /Ficha oficial/})).toHaveAttribute('href', 'https://www.egger.com/es/mobiliario-e-interiorismo/productos/decorativeboardse05p2?country=AR');
+  fireEvent.click(screen.getByRole('button', {name: 'Ver aplicaciones'}));
+  expect(screen.getByLabelText('Aplicaciones de tableros decorativos')).toBeVisible();
+});
+
 test('PerfectSense mantiene fichas separadas, fuentes argentinas y límite de aplicación de Matt', () => {
   render(<Topics />);
   openCard('PerfectSense');
@@ -23,6 +42,9 @@ test('PerfectSense mantiene fichas separadas, fuentes argentinas y límite de ap
 test('compactos y categorías sin ficha conservan la consulta sin mensajes internos', () => {
   render(<Topics />);
   openCard('Tableros decorativos');
+  expect(screen.queryByRole('button', { name: 'Compactos' })).not.toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: 'Cerrar producto' }));
+  openCard('Laminados');
   fireEvent.click(screen.getByRole('button', { name: 'Compactos' }));
   expect(screen.getByText('Consultanos por este producto.')).toBeVisible();
   expect(screen.queryByText(/pendiente|validación|identificar el producto/i)).not.toBeInTheDocument();
